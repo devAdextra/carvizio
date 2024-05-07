@@ -1,0 +1,56 @@
+{
+    "products":[
+        {
+            "category":"Sicurezza",
+            "title":"WindGallop Mini Compressore Portatile per Auto",
+            "price":"23,98€",
+            "link":" https://amzn.to/3Vr1F4X",
+            "image":"https://m.media-amazon.com/images/I/71Bj5k54nPL._AC_SL1200_.jpg"
+        },
+        
+        {
+            "category":"Sicurezza",
+            "title":"BRPOM Avviatore Batteria Auto, 3000A 21800mAh2",
+            "price":"53.19€",
+            "link":"https://amzn.to/3VxTWlJ",
+            "image":"https://m.media-amazon.com/images/I/61yLnYz5ooL._AC_SL1200_.jpg" 
+        },
+            
+        {
+            "category":"Sicurezza",
+            "title":"BuTure 5000Avviatore Emergenza per Auto",
+            "price":"99.99",
+            "link":"https://amzn.to/3vuCxzF",
+            "image":"https://m.media-amazon.com/images/I/91GWnz1IL2L._AC_SL1500_.jpg" 
+        },
+        {
+            "category":"Sicurezza",
+            "title":"UTRAI Avviatore di Emergenza 27000mAh 6 in 1",
+            "price":"85.49€",
+            "link":"https://amzn.to/3PzIphX",
+            "image":"https://m.media-amazon.com/images/I/71PSqjUQTVL._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Sicurezza",
+            "title":"EONO Essentials Pompa digitale preimpostata per pneumatici",
+            "price":"15.54€",
+            "link":"https://amzn.to/3VuKZcX",
+            "image":"https://m.media-amazon.com/images/I/814hG-SubCL._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Sicurezza",
+            "title":"PMK GRUPO - Luce V16 Omologata DGT",
+            "price":"13.45€",
+            "link":"https://amzn.to/4a5IcLC",
+            "image":"https://m.media-amazon.com/images/I/71n6HBkXbNS._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Sicurezza",
+            "title":"Sailnovo Kit di Emergenza per Auto Portatile",
+            "price":"49.99€",
+            "link":"https://amzn.to/43vYYB3",
+            "image":"https://m.media-amazon.com/images/I/81kbzPeDYUL._AC_SL1500_.jpg"
+        }
+    ]
+    
+    }

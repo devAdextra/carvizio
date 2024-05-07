@@ -1,0 +1,121 @@
+{
+    "products":[
+        {
+            "category":"Interni",
+            "title":"Coprivolante Auto Nero Rosso",
+            "price":"21,95€",
+            "link":"https://amzn.to/4a5H7U4",
+            "image":"https://m.media-amazon.com/images/I/71KYAnKNg9L._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Coprivolante auto in pelle nero",
+            "price":"18,99€",
+            "link":"https://amzn.to/3vuau3m",
+            "image":"https://m.media-amazon.com/images/I/41NHh5yG5UL._AC_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Fodera antiscivolo in stile sportivo",
+            "price":"16,99€",
+            "link":"https://amzn.to/3Tss3Jk",
+            "image":"https://m.media-amazon.com/images/I/61pJ5qFdsFL._AC_SL1000_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Coprivolante in Pelle Microfibra ",
+            "price":"19,99€",
+            "link":"https://amzn.to/4clDo6F",
+            "image":"https://m.media-amazon.com/images/I/71O2axQwt7L._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Set Coprisedili per Auto Rosso",
+            "price":"46,18€",
+            "link":"https://amzn.to/3TRrcSL",
+            "image":"https://m.media-amazon.com/images/I/61PZNfkY9NL._AC_SL1000_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Set Coprisedili Anteriori Nero",
+            "price":"29,99€",
+            "link":"https://amzn.to/4au3Fh6",
+            "image":"https://m.media-amazon.com/images/I/5177OAnZSXL._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Coprisedili Auto Anteriori Beige",
+            "price":"64,99€",
+            "link":"https://amzn.to/3INzm9z",
+            "image":"https://m.media-amazon.com/images/I/619lmATevwL._AC_SL1200_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Coprisedili Auto Universale Rosa",
+            "price":"59,95€",
+            "link":"https://amzn.to/3vrKq9a",
+            "image":"https://m.media-amazon.com/images/I/51T6g6I-FYL._AC_SL1087_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"2 Imbottiture Cinture di Sicurezza",
+            "price":"12,99€",
+            "link":"https://amzn.to/3xkbSWM",
+            "image":"https://m.media-amazon.com/images/I/71jrWYFQgOL._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Protezioni per Cintura di Sicurezza",
+            "price":"17,67€",
+            "link":"https://amzn.to/3TlIM0A",
+            "image":"https://m.media-amazon.com/images/I/61a-5Lo7c9L._AC_SL1000_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"2 Imbottiture Cinture Di Sicurezza Beige",
+            "price":"12,99€",
+            "link":"https://amzn.to/3x8evLz",
+            "image":"https://m.media-amazon.com/images/I/71b+VIIcTsL._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Copri Pomello leva cambio nero",
+            "price":"7,99€",
+            "link":"https://amzn.to/43A5JlK",
+            "image":"https://m.media-amazon.com/images/I/41rMxXZuXzL._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"2 Pezzi Imbottitura Cintura",
+            "price":"9,99€",
+            "link":"https://amzn.to/3vi49Z1",
+            "image":"https://m.media-amazon.com/images/I/51dIjSSxisL._AC_SL1200_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Adattatore Leva Cambio",
+            "price":"15,99€",
+            "link":"https://amzn.to/49a887B",
+            "image":"https://m.media-amazon.com/images/I/61EvkoZkpBL._AC_SL1200_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":" Pennello Pulizia Auto Interni",
+            "price":"9,99€",
+            "link":"https://amzn.to/3TRpdOj",
+            "image":"https://m.media-amazon.com/images/I/7173UpgR+iL._AC_SL1500_.jpg"
+        },
+        {
+            "category":"Interni",
+            "title":"Tappetino universale in gomma",
+            "price":"7,18€",
+            "link":"https://amzn.to/43txDQ4",
+            "image":"https://m.media-amazon.com/images/I/717nbjVVCwL._AC_SL1500_.jpg"
+        }
+
+
+        
+ 
+    ]
+    
+    }
