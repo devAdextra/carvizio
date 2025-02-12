@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-  <head>
+
+<head>
     <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-5KCL763C');</script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-NWHJ479B");
+    </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MGEKJPZY6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-3MGEKJPZY6");
+    </script>
+
+    <meta charset="UTF-8" />
+
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Carvizio</title>
     <meta name="author" content="Themeholy" />
-    <meta
-      name="description"
-      content="CarVizio"
-    />
-    <meta
-      name="keywords"
-      content="CarVizio"
-    />
+    <meta name="description" content="Carvizio - Vizia La Tua Auto" />
+    <meta name="keywords" content="CarVizio" />
     <meta name="robots" content="INDEX,FOLLOW" />
 
     <!-- Mobile Specific Metas -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Favicons -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="assets/img/favicon.svg"
-    />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.svg" />
     <meta name="theme-color" content="#ffffff" />
 
     <!--==============================
@@ -42,9 +52,8 @@
 	============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
 
     <!--==============================
 	    All CSS File
@@ -59,694 +68,706 @@
     <link rel="stylesheet" href="assets/css/slick.min.css" />
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KCL763C"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWHJ479B" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <!--==============================
-    Preloader
-==============================-->
+
     <div class="preloader">
-      <button class="as-btn style2 preloaderCls">Cancel Preloader</button>
-      <div class="preloader-inner">
-        <div class="loading-window">
-          <div class="car">
-            <div class="strike"></div>
-            <div class="strike strike2"></div>
-            <div class="strike strike3"></div>
-            <div class="strike strike4"></div>
-            <div class="strike strike5"></div>
-            <div class="car-detail spoiler"></div>
-            <div class="car-detail back"></div>
-            <div class="car-detail center"></div>
-            <div class="car-detail center1"></div>
-            <div class="car-detail front"></div>
-            <div class="car-detail wheel"></div>
-            <div class="car-detail wheel wheel2"></div>
-          </div>
+        <button class="as-btn style2 preloaderCls">Cancel Preloader</button>
+        <div class="preloader-inner">
+            <div class="loading-window">
+                <div class="car">
+                    <div class="strike"></div>
+                    <div class="strike strike2"></div>
+                    <div class="strike strike3"></div>
+                    <div class="strike strike4"></div>
+                    <div class="strike strike5"></div>
+                    <div class="car-detail spoiler"></div>
+                    <div class="car-detail back"></div>
+                    <div class="car-detail center"></div>
+                    <div class="car-detail center1"></div>
+                    <div class="car-detail front"></div>
+                    <div class="car-detail wheel"></div>
+                    <div class="car-detail wheel wheel2"></div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!--==============================
 Mobile Menu
 ============================== -->
-<div class="as-menu-wrapper">
-  <div class="as-menu-area text-center">
-    <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
-    <div class="mobile-logo">
-      <a href="index.html"><img src="assets/img/logo_black.svg" alt="Carvizio" /></a>
+    <div class="as-menu-wrapper">
+        <div class="as-menu-area text-center">
+            <button class="as-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/logo_black.svg" alt="Logo-Carvizio" /></a>
+            </div>
+            <div class="as-mobile-menu">
+                <ul>
+                    <li class="menu-item">
+                        <a href="index.html">HOME</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#about">CHI SIAMO</a>
+                    </li>
+
+                    <li class="menu-item-has-children">
+                        <a href="#offerte-oggetti">ACCESSORI AUTO</a>
+                        <ul class="sub-menu">
+                            <li><a href="shop-accessori.html">Accessori</a></li>
+                            <li><a href="shop-interni.html">Interni</a></li>
+                            <li><a href="shop-sicurezza.html">Sicurezza</a></li>
+                            <li>
+                                <a href="shop-elettronica.html">Elettronica</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="index.html#offerte-auto">AUTO DEL MESE</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="https://blog.carvizio.it/">ULTIME NOTIZIE</a>
+                    </li>
+
+                    <a href="contact.html">CONTACT</a>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="as-mobile-menu">
-      <ul>
-        <li class="menu-item">
-          <a href="index.html">HOME</a>
-        </li>
 
-        <li class="menu-item">
-          <a href="#about">CHI SIAMO</a>
-        </li>
-
-        <li class="menu-item-has-children">
-          <a href="#offerte-oggetti">ACCESSORI AUTO</a>
-          <ul class="sub-menu">
-            <li><a href="shop-accessori.html">Accessori</a></li>
-            <li><a href="shop-interni.html">Interni</a></li>
-            <li><a href="shop-sicurezza.html">Sicurezza</a></li>
-            <li>
-              <a href="shop-elettronica.html">Elettronica</a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="menu-item">
-          <a href="index.html#offerte-auto">AUTO DEL MESE</a>
-        </li>
-
-        <a href="contact.html">CONTACT</a>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!--==============================
+    <!--==============================
 Header Area
 ==============================-->
-<header class="as-header header-layout2">
-  <div class="navbar-top">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xxl-7 col-lg-6 text-lg-start text-center">
-          <div class="header-links d-lg-inline-block d-none">
-            <ul>
-              <li>
-                <i class="far fa-envelope"></i>
-                <a href="mailto:help24/7@gmail.com">help24/7@gmail.com</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-xxl-5 col-lg-6 align-self-center text-lg-end text-center">
-          <div class="header-links">
-            <ul>
-              <li>
-                <div class="header-social">
-                  <a href="https://www.facebook.com/carvizio1/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                  <a href="https://www.instagram.com/carvizio/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <header class="as-header header-layout2">
+        <div class="navbar-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xxl-7 col-lg-6 text-lg-start text-center">
+                        <div class="header-links d-lg-inline-block d-none">
+                            <ul>
+                                <li>
+                                    <i class="far fa-envelope"></i>
+                                    <a href="mailto:info@carvizio.it">info@carvizio.it </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-lg-6 align-self-center text-lg-end text-center">
+                        <div class="header-links">
+                            <ul>
+                                <li>
+                                    <div class="header-social">
+                                        <a href="https://www.facebook.com/profile.php?id=61567089415230"
+                                            target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.instagram.com/carvizio/" target="_blank"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="sticky-wrapper">
-    <!-- Main Menu Area -->
-    <div class="menu-area">
-      <div class="logo-bg-shape"></div>
-      <div class="container-fluid">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-auto">
-            <div class="header-logo">
-              <a href="index.html"><img src="assets/img/logo-header.svg" alt="carvizio" /></a>
             </div>
-          </div>
-          <div class="col-auto">
+        </div>
+        <div class="sticky-wrapper">
+            <!-- Main Menu Area -->
             <div class="menu-area">
-              <nav class="main-menu d-none d-lg-inline-block">
-                <ul>
-                  <li class="menu-item">
-                    <a href="index.html">HOME</a>
-                  </li>
+                <div class="logo-bg-shape"></div>
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <div class="header-logo">
+                                <a href="index.html"><img src="assets/img/logo-header.svg" alt="carvizio" /></a>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="menu-area">
+                                <nav class="main-menu d-none d-lg-inline-block">
+                                    <ul>
+                                        <li class="menu-item">
+                                            <a href="index.html">HOME</a>
+                                        </li>
 
-                  <li>
-                    <a href="#about">CHI SIAMO</a>
-                  </li>
+                                        <li>
+                                            <a href="#about">CHI SIAMO</a>
+                                        </li>
 
-                  <li class="menu-item-has-children">
-                    <a href="#offerte-oggetti">ACCESSORI AUTO</a>
-                    <ul class="sub-menu">
-                      <li><a href="shop-accessori.html">Accessori</a></li>
-                      <li><a href="shop-interni.html">Interni</a></li>
-                      <li><a href="shop-sicurezza.html">Sicurezza</a></li>
-                      <li>
-                        <a href="shop-elettronica.html">Elettronica</a>
-                      </li>
-                    </ul>
-                  </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#offerte-oggetti">ACCESSORI AUTO</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="shop-accessori.html">Accessori</a></li>
+                                                <li><a href="shop-interni.html">Interni</a></li>
+                                                <li><a href="shop-sicurezza.html">Sicurezza</a></li>
+                                                <li>
+                                                    <a href="shop-elettronica.html">Elettronica</a>
+                                                </li>
+                                            </ul>
+                                        </li>
 
-                  <li class="menu-item">
-                    <a href="index.html#offerte-auto">AUTO DEL MESE</a>
-                  </li>
-                </ul>
-              </nav>
-              <button type="button" class="as-menu-toggle d-inline-block d-lg-none">
-                <i class="far fa-bars"></i>
-              </button>
+                                        <li class="menu-item">
+                                            <a href="index.html#offerte-auto">AUTO DEL MESE</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="https://blog.carvizio.it/">ULTIME NOTIZIE</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <button type="button" class="as-menu-toggle d-inline-block d-lg-none">
+                                    <i class="far fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <div class="header-button">
+                                <a href="contact.html" class="as-btn style4 d-none d-xl-block">CONTATTACI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-auto d-none d-lg-block">
-            <div class="header-button">
-              <a href="contact.html" class="as-btn style4 d-none d-xl-block">CONTATTACI</a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</header>
+    </header>
     <!--==============================
     Hero Area 02
 ==============================-->
     <div class="as-hero-wrapper hero-2" id="hero">
-      <div class="hero-slider-wrap-2">
-        <div
-          class="hero-slider-2 as-carousel"
-          data-fade="true"
-          data-slide-show="1"
-          data-md-slide-show="1"
-          data-dots="false"
-          data-adaptive-height="true"
-        >
-          <div class="as-hero-slide">
-            <div
-              class="as-hero-bg"
-              data-bg-src="assets/img/hero/hero-bg.webp"
-            ></div>
+        <div class="hero-slider-wrap-2">
+            <div class="hero-slider-2 as-carousel" data-fade="true" data-slide-show="1" data-md-slide-show="1"
+                data-dots="false" data-adaptive-height="true">
+                <div class="as-hero-slide">
+                    <div class="as-hero-bg" data-bg-src="assets/img/hero/hero-bg.webp"></div>
 
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-7 col-md-5 align-self-center order-md-2">
-                  <div
-                    class="hero-thumb slideinright as-animated"
-                    data-theme-color="#0046E2"
-                    data-ani="slideinright"
-                    data-ani-delay="0.1s"
-                  >
-                    <img src="assets/img/hero/car-no-bg.webp" alt="img" />
-                  </div>
-                </div>
-                <div class="col-xl-5 col-md-7 order-md-1">
-                  <div class="hero-style2">
-                    <span
-                      class="hero-subtitle"
-                      data-ani="slideinleft"
-                      data-ani-delay="0.0s"
-                    >
-                      CARVIZIO
-                    </span>
-                    <h1
-                      class="hero-title text-white"
-                      data-ani="slideinleft"
-                      data-ani-delay="0.1s"
-                    >
-                      <span class="text-theme">
-                        <span style="color: white;">Vizia</span> la tua  <span style="color: white;">auto</span> con stile
-                      </span>
-                    </h1>
-                    <div
-                      class="btn-group"
-                      data-ani="slideinleft"
-                      data-ani-delay="0.2s"
-                    >
-                      <a href="contact.html" class="as-btn style5"
-                        >Scopri di piu</a
-                      >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-7 col-md-5 align-self-center order-md-2">
+                                <div class="hero-thumb slideinright as-animated" data-theme-color="#0046E2"
+                                    data-ani="slideinright" data-ani-delay="0.1s">
+                                    <img src="assets/img/hero/car-no-bg.webp" alt="img" />
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-md-7 order-md-1">
+                                <div class="hero-style2">
+                                    <span class="hero-subtitle" data-ani="slideinleft" data-ani-delay="0.0s">
+                                        CARVIZIO
+                                    </span>
+                                    <h1 class="hero-title text-white" data-ani="slideinleft" data-ani-delay="0.1s">
+                                        <span class="text-theme">
+                                            <span style="color: white">Vizia</span>
+                                            la tua <span style="color: white">auto</span>
+                                            con stile
+                                        </span>
+                                    </h1>
+                                    <div class="btn-group" data-ani="slideinleft" data-ani-delay="0.2s">
+                                        <a href="contact.html" class="as-btn style5">Scopri di piu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    
+
     <!--==============================
     About Area 2 
 ==============================-->
     <section class="about-area2 space overflow-hidden" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="about-thumb-wrap2 mb-lg-0 mb-5">
-              <div
-                class="shape-mockup"
-                data-bottom="-120px"
-                data-right="0"
-                data-left="-66%"
-              >
-                <img
-                  class="about-thumb-bg2"
-                  src="assets/img/about/about_thumb_bg_2.webp"
-                  alt="img"
-                />
-              </div>
-              <div class="thumb-1">
-                <img src="assets/img/about/home-img1.jpg" alt="img" />
-              </div>
-              <div class="thumb-2">
-                <img src="assets/img/about/home-img2.jpg" alt="img" />
-              </div>
-              <div class="about-counter1">
-                <h3 class="counter-title">
-                  <span class="counter-number">1</span>k+
-                </h3>
-                <span class="counter-text">CLIENTI SODDISFATTI</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="title-area mb-0">
-              <h3 class="sub-title">VIZIA LA TUA AUTO</h3>
-              <h2 class="sec-title">
-                Sicurezza, Stile e Innovazione con Carvizio.
-              </h2>
-              <p class="content">
-                Il comfort è una forma d’arte, come il design. Scegli gli
-                accessori per la tua auto. Rendi i vostri viaggi sempre più
-                piacevoli, sicuri e confortevoli. Perché Carvizio:
-              </p>
-              <div class="list-column2">
-                <div class="checklist">
-                  <ul>
-                    <li>
-                      <img src="assets/img/icon/check.svg" alt="img" /> Per dare
-                      stile alla tua auto
-                    </li>
-                    <li>
-                      <img src="assets/img/icon/check.svg" alt="img" /> Con
-                      accessori selezionati
-                    </li>
-                    <li>
-                      <img src="assets/img/icon/check.svg" alt="img" /> Che la
-                      renderanno unica
-                    </li>
-                  </ul>
-                </div>
-                <div class="checklist">
-                  <ul>
-                    <li>
-                      <img src="assets/img/icon/check.svg" alt="img" /> Ti
-                      accompagniamo nei tuoi viaggi
-                    </li>
-                    <li>
-                      <img src="assets/img/icon/check.svg" alt="img" /> Per
-                      darti il meglio
-                    </li>
-                    <li>
-                      <img src="assets/img/icon/check.svg" alt="img" />In poco
-                      tempo
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="about-btn-group">
-                <a class="as-btn style4 mt-0" href="contact.html"
-                  >SCOPRI DI PIù</a
-                >
-                <div class="about-grid">
-                  <div class="about-grid_icon">
-                    <div class="icon">
-                      <img src="assets/img/icon/message.svg" alt="icon" />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-thumb-wrap2 mb-lg-0 mb-5">
+                        <div class="shape-mockup" data-bottom="-120px" data-right="0" data-left="-66%">
+                            <img class="about-thumb-bg2" src="assets/img/about/segno-gomma.webp" alt="segno-gomma" />
+                        </div>
+                        <div class="thumb-1">
+                            <img src="assets/img/about/faro-auto.jpg" alt="faro-auto" />
+                        </div>
+                        <div class="thumb-2">
+                            <img src="assets/img/about/volante-auto.jpg" alt="volante-auto" />
+                        </div>
+                        <div class="about-counter1">
+                            <h3 class="counter-title">
+                                <span class="counter-number">1</span>k+
+                            </h3>
+                            <span class="counter-text">CLIENTI SODDISFATTI</span>
+                        </div>
                     </div>
-                  </div>
-                  <div class="media-body">
-                    <h3 class="about-grid_title">
-                      E se vuoi cambiare auto… sotto la nostra selezione
-                    </h3>
-                    <span class="about-grid_link"
-                      ><img
-                        class="me-2"
-                        src="assets/img/icon/hand.svg"
-                        alt="img"
-                      /><a href="#offerte-auto" class="gr-link"
-                        >La Nostra Selezione</a
-                      ></span
-                    >
-                  </div>
                 </div>
-              </div>
+                <div class="col-lg-6">
+                    <div class="title-area mb-0">
+                        <h3 class="sub-title">VIZIA LA TUA AUTO</h3>
+                        <h2 class="sec-title">
+                            Sicurezza, Stile e Innovazione con Carvizio.
+                        </h2>
+                        <p class="content">
+                            Il comfort è una forma d’arte, come il design. Scegli gli
+                            accessori per la tua auto. Rendi i vostri viaggi sempre più
+                            piacevoli, sicuri e confortevoli. Perché Carvizio:
+                        </p>
+                        <div class="list-column2">
+                            <div class="checklist">
+                                <ul>
+                                    <li>
+                                        <img src="assets/img/icon/check.svg" alt="check-icon" /> Per dare
+                                        stile alla tua auto
+                                    </li>
+                                    <li>
+                                        <img src="assets/img/icon/check.svg" alt="check-icon" /> Con
+                                        accessori selezionati
+                                    </li>
+                                    <li>
+                                        <img src="assets/img/icon/check.svg" alt="check-icon" /> Che la
+                                        renderanno unica
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="checklist">
+                                <ul>
+                                    <li>
+                                        <img src="assets/img/icon/check.svg" alt="check-icon" /> Ti
+                                        accompagniamo nei tuoi viaggi
+                                    </li>
+                                    <li>
+                                        <img src="assets/img/icon/check.svg" alt="check-icon" /> Per
+                                        darti il meglio
+                                    </li>
+                                    <li>
+                                        <img src="assets/img/icon/check.svg" alt="check-icon" />In poco
+                                        tempo
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="about-btn-group">
+                            <a class="as-btn style4 mt-0" href="contact.html">SCOPRI DI PIù</a>
+                            <div class="about-grid">
+                                <div class="about-grid_icon">
+                                    <div class="icon">
+                                        <img src="assets/img/icon/message.svg" alt="message-icon" />
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="about-grid_title">
+                                        E se vuoi cambiare auto… sotto la nostra selezione
+                                    </h3>
+                                    <span class="about-grid_link"><img class="me-2" src="assets/img/icon/hand.svg"
+                                            alt="hand-icon" /><a href="#offerte-auto" class="gr-link">La Nostra
+                                            Selezione</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
     <!--==============================
     Category Area 
 ==============================-->
-    <section
-      class="category-area space"
-      style="background-attachment: fixed"
-      data-bg-src="assets/img/hero/hero-bg.webp"
-      data-overlay="title"
-      data-opacity="7"
-      id="offerte-oggetti"
-    >
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="title-area text-center">
-              <h3 class="sub-title">
-                <span class="double-line"></span> CARVIZIO Category
-              </h3>
-              <h2 class="sec-title text-white">Scegli il tuo vizio</h2>
+    <section class="category-area space" style="background-attachment: fixed" data-bg-src="assets/img/hero/hero-bg.webp"
+        data-overlay="title" data-opacity="7" id="offerte-oggetti">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="title-area text-center">
+                        <h3 class="sub-title">
+                            <span class="double-line"></span> CARVIZIO Category
+                        </h3>
+                        <h2 class="sec-title text-white">Scegli il tuo vizio</h2>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="category-slider row as-carousel" data-slide-show="6" data-lg-slide-show="5"
+                data-md-slide-show="4" data-sm-slide-show="3" data-xs-slide-show="2" data-arrows="true"
+                data-xl-arrows="true" data-ml-arrows="true">
+                <div class="col-auto"></div>
+
+                <div class="col-auto">
+                    <div class="cat-wrap">
+                        <a href="shop-accessori.html">
+                            <div class="thumb">
+                                <img src="assets/img/category/accessori.webp" alt="accessori" />
+                            </div>
+                        </a>
+                        <h4 class="cat-content h5">
+                            <a href="shop-accessori.html">ACCESSORI <span class="text-theme"></span></a>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-auto">
+                    <div class="cat-wrap">
+                        <a href="shop-interni.html">
+                            <div class="thumb">
+                                <img src="assets/img/category/interni.webp" alt="interni" />
+                            </div>
+                        </a>
+                        <h4 class="cat-content h5">
+                            <a href="shop-interni.html">INTERNI <span class="text-theme"></span></a>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-auto">
+                    <div class="cat-wrap">
+                        <a href="shop-sicurezza.html">
+                            <div class="thumb">
+                                <img src="assets/img/category/safety.webp" alt="sicurezza" />
+                            </div>
+                        </a>
+                        <h4 class="cat-content h5">
+                            <a href="shop-sicurezza.html">SICUREZZA <span class="text-theme"></span></a>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-auto">
+                    <div class="cat-wrap">
+                        <a href="shop-elettronica.html">
+                            <div class="thumb">
+                                <img src="assets/img/category/elettronica.webp" alt="elettronica" />
+                            </div>
+                        </a>
+                        <h4 class="cat-content h5">
+                            <a href="shop-elettronica.html">ELETTRONICA <span class="text-theme"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div
-          class="category-slider row as-carousel"
-          data-slide-show="6"
-          data-lg-slide-show="5"
-          data-md-slide-show="4"
-          data-sm-slide-show="3"
-          data-xs-slide-show="2"
-          data-arrows="true"
-          data-xl-arrows="true"
-          data-ml-arrows="true"
-        >
-          <div class="col-auto"></div>
-
-          <div class="col-auto">
-            <div class="cat-wrap">
-              <a href="shop-accessori.html">
-                <div class="thumb">
-                  <img src="assets/img/category/accessori.webp" alt="image" />
-                </div>
-              </a>
-              <h4 class="cat-content h5">
-                <a href="shop-accessori.html"
-                  >ACCESSORI <span class="text-theme"></span
-                ></a>
-              </h4>
-            </div>
-          </div>
-
-          <div class="col-auto">
-            <div class="cat-wrap">
-              <a href="shop-interni.html">
-                <div class="thumb">
-                  <img src="assets/img/category/interni.webp" alt="image" />
-                </div>
-              </a>
-              <h4 class="cat-content h5">
-                <a href="shop-interni.html"
-                  >INTERNI <span class="text-theme"></span
-                ></a>
-              </h4>
-            </div>
-          </div>
-
-          <div class="col-auto">
-            <div class="cat-wrap">
-              <a href="shop-sicurezza.html">
-                <div class="thumb">
-                  <img src="assets/img/category/safety.webp" alt="image" />
-                </div>
-              </a>
-              <h4 class="cat-content h5">
-                <a href="shop-sicurezza.html"
-                  >SICUREZZA <span class="text-theme"></span
-                ></a>
-              </h4>
-            </div>
-          </div>
-
-          <div class="col-auto">
-            <div class="cat-wrap">
-              <a href="shop-elettronica.html">
-                <div class="thumb">
-                  <img src="assets/img/category/elettronica.webp" alt="image" />
-                </div>
-              </a>
-              <h4 class="cat-content h5">
-                <a href="shop-elettronica.html"
-                  >ELETTRONICA <span class="text-theme"></span
-                ></a>
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
-    
+
     <!--==============================
     Why-choose-us Area 02 
 ==============================-->
     <div class="wcu-area-2" data-bg-src="assets/img/wcu/wcu_shape2.webp">
-      <div class="container-fluid p-0">
-        <div class="row gx-0">
-          <div class="col-xl-6">
-            <div class="wcu-thumb2 mt-n1">
-              <img src="assets/img/wcu/merc-gialla.webp" alt="img" />
-            </div>
-          </div>
-          <div class="col-xl-6">
-            <div class="wcu-wrap space-top">
-              <div class="title-area">
-                <span class="sub-title">LA NOSTRA SELEZIONE AUTO</span>
-                <h2 class="sec-title">
-                  Cerchi un’auto nuova? Carvizio seleziona per te!
-                </h2>
-                <p class="content">
-                  Auto nuova, noleggio a lungo temine, leasing o usato
-                  garantito. Che sia Ibrida, full elettric o che la scelta
-                  rimanga sul classico carburante, Carvizio ti propone alcune
-                  delle OFFERTE migliori del momento
-                </p>
-              </div>
-              <div
-                class="row as-carousel gy-25"
-                data-slide-show="2"
-                data-lg-slide-show="2"
-                data-md-slide-show="2"
-                data-sm-slide-show="2"
-                data-xs-slide-show="1"
-                data-arrows="false"
-              >
-                <div class="col-lg-6">
-                  <div class="wcu-card">
-                    <div class="icon">
-                      <img
-                        src="assets/img/icon/wcu-box-icon-1.svg"
-                        alt="icon"
-                      />
+        <div class="container-fluid p-0">
+            <div class="row gx-0">
+                <div class="col-xl-6">
+                    <div class="wcu-thumb2 mt-n1">
+                        <img src="assets/img/wcu/merc-gialla.webp" alt="mercedes-gialla" />
                     </div>
-                    <h3 class="card-title h4">CARVIZIO SELEZIONA</h3>
+                </div>
+                <div class="col-xl-6">
+                    <div class="wcu-wrap space-top">
+                        <div class="title-area">
+                            <span class="sub-title">LA NOSTRA SELEZIONE AUTO</span>
+                            <h2 class="sec-title">
+                                Cerchi un’auto nuova? Carvizio seleziona per te!
+                            </h2>
+                            <p class="content">
+                                Auto nuova, noleggio a lungo temine, leasing o usato
+                                garantito. Che sia Ibrida, full elettric o che la scelta
+                                rimanga sul classico carburante, Carvizio ti propone alcune
+                                delle OFFERTE migliori del momento
+                            </p>
+                        </div>
+                        <div class="row as-carousel gy-25" data-slide-show="2" data-lg-slide-show="2"
+                            data-md-slide-show="2" data-sm-slide-show="2" data-xs-slide-show="1" data-arrows="false">
+                            <div class="col-lg-6">
+                                <div class="wcu-card">
+                                    <div class="icon">
+                                        <img src="assets/img/icon/medaglia.svg" alt="medaglia" />
+                                    </div>
+                                    <h3 class="card-title h4">CARVIZIO SELEZIONA</h3>
 
-                    <p class="content">
-                      Scegliamo tra le migliori OFFERTE del mese.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="wcu-card">
-                    <div class="icon">
-                      <img
-                        src="assets/img/icon/wcu-box-icon-2.svg"
-                        alt="icon"
-                      />
+                                    <p class="content">
+                                        Scegliamo tra le migliori OFFERTE del mese.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="wcu-card">
+                                    <div class="icon">
+                                        <img src="assets/img/icon/conferma.svg" alt="conferma" />
+                                    </div>
+                                    <h3 class="card-title h4">IL CONCESSIONARIO RISPONDE</h3>
+                                    <p class="content">
+                                        Test drive o preventivo gratuito per la tua zona.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="card-title h4">IL CONCESSIONARIO RISPONDE</h3>
-                    <p class="content">
-                      Test drive o preventivo gratuito per la tua zona.
-                    </p>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <!--==============================
     Counter Area 02 
 ==============================-->
     <div class="container space-top pt-xl-0 pb-xl-0">
-      <div
-        class="counter-area2 text-center"
-        data-bg-src="assets/img/bg/counter_bg.webp"
-      >
-        <div class="row gy-25 justify-content-center">
-          <div class="col-sm-6 col-xl-3">
-            <div class="counter-card2">
-              <div class="counter-card_icon">
-                <img src="assets/img/counter/counter_icon_2_1.svg" alt="img" />
-              </div>
-              <div class="card-details">
-                <h4 class="sec-title text-white">BEST<br>OFFERS</h4>
-              </div>
+        <div class="counter-area2 text-center" data-bg-src="assets/img/bg/counter_bg.webp">
+            <div class="row gy-25 justify-content-center">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="counter-card2">
+                        <div class="counter-card_icon">
+                            <img src="assets/img/counter/migliori-offerte.svg" alt="migliori-offerte" />
+                        </div>
+                        <div class="card-details">
+                            <h4 class="sec-title text-white">BEST<br />OFFERS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="counter-card2">
+                        <div class="counter-card_icon">
+                            <img src="assets/img/counter/vendita-macchine.svg" alt="vendita-macchine" />
+                        </div>
+                        <div class="card-details">
+                            <h4 class="sec-title text-white">CARS FOR SALE</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="counter-card2">
+                        <div class="counter-card_icon">
+                            <img src="assets/img/counter/venditore-verificato.svg" alt="venditore-verificato" />
+                        </div>
+                        <div class="card-details">
+                            <h4 class="sec-title text-white">VERIFIED DEALER</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="counter-card2">
+                        <div class="counter-card_icon">
+                            <img src="assets/img/counter/clienti-soddisfatti.svg" alt="clienti-soddisfatti" />
+                        </div>
+                        <div class="card-details">
+                            <h4 class="sec-title text-white">HAPPY CUSTOMER</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-xl-3">
-            <div class="counter-card2">
-              <div class="counter-card_icon">
-                <img src="assets/img/counter/counter_icon_2_2.svg" alt="img" />
-              </div>
-              <div class="card-details">
-               
-                  <h4 class="sec-title text-white">CARS FOR SALE</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-xl-3">
-            <div class="counter-card2">
-              <div class="counter-card_icon">
-                <img src="assets/img/counter/counter_icon_2_3.svg" alt="img" />
-              </div>
-              <div class="card-details">
-            
-                <h4 class="sec-title text-white">VERIFIED DEALER</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-xl-3">
-            <div class="counter-card2">
-              <div class="counter-card_icon">
-                <img src="assets/img/counter/counter_icon_2_4.svg" alt="img" />
-              </div>
-              <div class="card-details">
-                 
-                <h4 class="sec-title text-white">HAPPY CUSTOMER</h4>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <!--==============================
     Offer Area 
 ==============================-->
 
-    <section
-      class="offer-area as-carousel offer-slider"
-      data-fade="true"
-      data-slide-show="1"
-      data-lg-slide-show="1"
-      data-md-slide-show="1"
-      data-sm-slide-show="1"
-      data-xs-slide-show="1"
-      data-dots="true"
-      data-xl-dots="true"
-      data-ml-dots="true"
-      id="offerte-auto"
-    >
-      <div
-        class="offer-slider-wrap space"
-        data-bg-src="assets/img/bg/offer_bg.webp"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-7 col-lg-6 order-lg-2">
-              <div
-                class="offer-thumb"
-                data-ani="slideinright"
-                data-ani-delay="0.1s"
-              >
-                <img src="assets/img/offer/offerta_home_crosstrek.webp" alt="img" />
-              </div>
+    <section class="offer-area as-carousel offer-slider" data-fade="true" data-slide-show="1" data-lg-slide-show="1"
+        data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1" data-dots="true" data-xl-dots="true"
+        data-ml-dots="true" id="offerte-auto" >
+        <div class="offer-slider-wrap space" data-bg-src="assets/img/bg/offer_bg.webp" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6 order-lg-2">
+                        <div class="offer-thumb" data-ani="slideinright" data-ani-delay="0.1s">
+                            <img src="https://landing.carvizio.it/assets/models/nissan-juke.jpg" alt="nissan-juke" />
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 order-lg-1">
+                        <div class="title-area">
+                            <span class="sub-title">Scelte da Carvizio</span>
+                            <h2 class="sec-title text-white">La Nostra Selezione</h2>
+                            <p class="sec-text text-white">Nuova Nissan Juke</p>
+                        </div>
+
+                        <div class="special-offer-wrap">
+                            <h3 class="title">Nuova Nissan Juke
+
+
+                            </h3>
+                            <p class="content">Scoprila ORA</p>
+                            <h4 class="price">
+                                <span class="text-theme me-2">tua da</span>
+                                19.900€.
+                            </h4>
+                            <a class="as-btn style5" href="https://landing.carvizio.it/nissan-juke.html">SCOPRI
+                                ORA</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-5 col-lg-6 order-lg-1">
-              <div class="title-area">
-                <span class="sub-title">Scelte da Carvizio</span>
-                <h2 class="sec-title text-white">La Nostra Selezione</h2>
-                <p class="sec-text text-white">
-                  DESIGN E INNOVAZIONE SI INCONTRANO.<br>
-                  Inizialo con un test drive.
-                </p>
-              </div>
-              <div class="special-offer-wrap">
-                <h3 class="title">Subaru Crosstrek</h3>
-                <p class="content">Non c'è momento migliore per scegliere Crosstrek.</p>
-                <h4 class="price">
-                  <span class="text-theme me-2">tua a</span> € 248 al mese
-                  
-                </h4>
-                <a class="as-btn style5" href="landings/landing_subaru_crosstrek.html">SCOPRI ORA</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div><!--
-      <div
-        class="offer-slider-wrap space"
-        data-bg-src="assets/img/bg/offer_bg-2.webp"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-7 col-lg-6 order-lg-2">
-              <div
-                class="offer-thumb"
-                data-ani="slideinright"
-                data-ani-delay="0.1s"
-              >
-                <img src="assets/img/offer/offerta_home_2.webp" alt="img" />
-              </div>
+        <div class="offer-slider-wrap space" data-bg-src="assets/img/bg/offer_bg.webp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6 order-lg-2">
+                        <div class="offer-thumb" data-ani="slideinright" data-ani-delay="0.1s">
+                            <img src="https://landing.carvizio.it/assets/models/serie1.jpg" alt="bmw-serie1" />
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 order-lg-1">
+                        <div class="title-area">
+                            <span class="sub-title">Scelte da Carvizio</span>
+                            <h2 class="sec-title text-white">La Nostra Selezione</h2>
+                            <p class="sec-text text-white">Nuova BMW Serie 1
+
+
+
+
+                            </p>
+                        </div>
+
+                        <div class="special-offer-wrap">
+                            <h3 class="title">Nuova BMW Serie 1
+
+
+                            </h3>
+                            <p class="content">Scoprila ORA</p>
+                            <h4 class="price">
+                                <span class="text-theme me-2">tua da</span>
+                                250€/mese.
+                            </h4>
+                            <a class="as-btn style5" href="https://landing.carvizio.it/bmw_serie1.html">SCOPRI
+                                ORA</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-5 col-lg-6 order-lg-1">
-              <div class="title-area">
-                <span class="sub-title">SCELTA DA CARVIZIO</span>
-                <h2 class="sec-title text-white">La Nostra Selezione</h2>
-                <p class="sec-text text-white">
-                  Ford raddoppia la rottamazione statale.<br>
-                  E con il tasso zero hai ancora più vantaggi.
-                </p>
-              </div>
-              <div class="special-offer-wrap">
-                <h3 class="title">Ford Focus HYBRID</h3>
-                <p class="content">Approfitta degli ECODAYS FORD</p>
-                <h4 class="price">
-                  <span class="text-theme me-2">tua a</span> € 129 al mese
-                  
-                </h4>
-                <a class="as-btn style5" href="landings/landing_ford_focus.html">SCOPRI ORA</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>--><!--
-      <div
-        class="offer-slider-wrap space"
-        data-bg-src="assets/img/bg/offer_bg-3.webp"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-7 col-lg-6 order-lg-2">
-              <div
-                class="offer-thumb"
-                data-ani="slideinright"
-                data-ani-delay="0.1s"
-              >
-                <img src="assets/img/offer/offerta_home_3.webp" alt="img" />
-              </div>
+        <div class="offer-slider-wrap space" data-bg-src="assets/img/bg/offer_bg.webp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6 order-lg-2">
+                        <div class="offer-thumb" data-ani="slideinright" data-ani-delay="0.1s">
+                            <img src="https://landing.carvizio.it/assets/models/alfa-junior.jpg" alt="alfaromeo-junior" />
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 order-lg-1">
+                        <div class="title-area">
+                            <span class="sub-title">Scelte da Carvizio</span>
+                            <h2 class="sec-title text-white">La Nostra Selezione</h2>
+                            <p class="sec-text text-white">Alfa Romeo Junior Ibrida
+
+
+                            </p>
+                        </div>
+
+                        <div class="special-offer-wrap">
+                            <h3 class="title">Alfa Romeo Junior Ibrida
+
+
+                            </h3>
+                            <p class="content">Scoprila ORA</p>
+                            <h4 class="price">
+                                <span class="text-theme me-2">tua da</span>
+                                250€/mese.
+                            </h4>
+                            <a class="as-btn style5" href="https://landing.carvizio.it/alfaromeo-junior-hybrid.html">SCOPRI
+                                ORA</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-5 col-lg-6 order-lg-1">
-              <div class="title-area">
-                <span class="sub-title">SCELTA DA CARVIZIO</span>
-                <h2 class="sec-title text-white">La Nostra Selezione</h2>
-                <p class="sec-text text-white">
-                  MITSUBISHI ANTICIPA GLI ECOINCENTIVI<br>
-con 3.000 € di incentivo grazie al contributo Mitsubishi<br>e della rete di Concessionarie
-                </p>
-              </div>
-              <div class="special-offer-wrap">
-                <h3 class="title">Nuova Mitsubishi Colt</h3>
-                <p class="content">La berlina intelligente e sicura</p>
-                <h4 class="price">
-                  <span class="text-theme me-2">tua a </span> € 99 al mese
-  
-                </h4>
-                <a class="as-btn style5" href="landings/landing_mitsubishi_colt.html">SCOPRI ORA</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>-->
+        <div class="offer-slider-wrap space" data-bg-src="assets/img/bg/offer_bg.webp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6 order-lg-2">
+                        <div class="offer-thumb" data-ani="slideinright" data-ani-delay="0.1s">
+                            <img src="https://landing.carvizio.it/assets/models/cupra_terramar.png" alt="cupra-terramar" />
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 order-lg-1">
+                        <div class="title-area">
+                            <span class="sub-title">Scelte da Carvizio</span>
+                            <h2 class="sec-title text-white">La Nostra Selezione</h2>
+                            <p class="sec-text text-white">CUPRA TERRAMAR e-HYBRID
+
+
+
+                            </p>
+                        </div>
+
+                        <div class="special-offer-wrap">
+                            <h3 class="title">CUPRA TERRAMAR e-HYBRID
+
+
+                            </h3>
+                            <p class="content">Scoprila ORA</p>
+                            <h4 class="price">
+                                <span class="text-theme me-2">tua da</span>
+                                295€/mese.
+                            </h4>
+                            <a class="as-btn style5" href="https://landing.carvizio.it/cupra_terramar.html">SCOPRI
+                                ORA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offer-slider-wrap space" data-bg-src="assets/img/bg/offer_bg.webp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6 order-lg-2">
+                        <div class="offer-thumb" data-ani="slideinright" data-ani-delay="0.1s">
+                            <img src="https://landing.carvizio.it/assets/models/c3.jpg" alt="citroen-c3" />
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 order-lg-1">
+                        <div class="title-area">
+                            <span class="sub-title">Scelte da Carvizio</span>
+                            <h2 class="sec-title text-white">La Nostra Selezione</h2>
+                            <p class="sec-text text-white">Nuova Citroën C3
+
+
+                            </p>
+                        </div>
+
+                        <div class="special-offer-wrap">
+                            <h3 class="title">Nuova Citroën C3
+
+
+                            </h3>
+                            <p class="content">Scoprila ORA</p>
+                            <h4 class="price">
+                                <span class="text-theme me-2">tua da</span>
+                                289€/mese iva inclusa.
+                            </h4>
+                            <a class="as-btn style5" href="https://landing.carvizio.it/citroen-c3.html">SCOPRI
+                                ORA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offer-slider-wrap space" data-bg-src="assets/img/bg/offer_bg.webp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6 order-lg-2">
+                        <div class="offer-thumb" data-ani="slideinright" data-ani-delay="0.1s">
+                            <img src="https://landing.carvizio.it/assets/models/panda.jpeg" alt="img" />
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 order-lg-1">
+                        <div class="title-area">
+                            <span class="sub-title">Scelte da Carvizio</span>
+                            <h2 class="sec-title text-white">La Nostra Selezione</h2>
+                            <p class="sec-text text-white">Fiat Panda Hybrid 1.0 FireFly S&S Hybrid
+
+
+                            </p>
+                        </div>
+
+                        <div class="special-offer-wrap">
+                            <h3 class="title">Fiat Panda Hybrid 1.0 FireFly S&S Hybrid
+
+
+                            </h3>
+                            <p class="content">Scoprila ORA</p>
+                            <h4 class="price">
+                                <span class="text-theme me-2">tua da</span>
+                                279€/mese iva inclusa.
+                            </h4>
+                            <a class="as-btn style5" href="https://landing.carvizio.it/fiat_panda.html">SCOPRI
+                                ORA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- trending courses Area End -->
@@ -754,292 +775,313 @@ con 3.000 € di incentivo grazie al contributo Mitsubishi<br>e della rete di Co
     Testimonial Area 2  
 ==============================-->
     <section class="testiomonial-area2 overflow-hidden">
-      <div class="as-container2">
-        <div class="row gx-0 justify-content-center">
-          <div class="col-xl-6 col-lg-5">
-            <div
-              class="wcu-thumb"
-              data-bg-src="assets/img/testimonial/testimonials-car.jpg"
-            ></div>
-          </div>
-          <div class="col-xl-6 col-lg-7">
-            <div
-              class="testi-wrap"
-              data-bg-src="assets/img/testimonial/testi_bg.png"
-            >
-              <div class="quote-icon">
-                <img src="assets/img/testimonial/quote-icon.svg" alt="img" />
-              </div>
-              <div class="title-area mb-0">
-                <span class="sub-title">Feedbacks</span>
-                <h2 class="sec-title">Our Customer Feedback</h2>
-              
-              </div>
-              <div
-                class="as-carousel arrow-style-2"
-                data-slide-show="1"
-                data-lg-slide-show="1"
-                data-md-slide-show="1"
-                data-sm-slide-show="1"
-                data-xs-slide-show="1"
-                data-arrows="true"
-                data-xl-arrows="true"
-                data-ml-arrows="true"
-                data-lg-arrows="true"
-                data-md-arrows="true"
-              >
-                <div class="testi-box2">
-                  <p class="testi_content">
-                    <i class="fa fa-quote-left me-1"></i> Ho trovato molta serietà sulle offerte auto proposte e soprattutto sulla persona che gentilmente mi ha chiamato ed ha risposto a tutti i miei quesiti in maniera puntuale.<i
-                      class="fa fa-quote-right ms-1"
-                    ></i>
-                  </p>
-                  <div class="testi-box_profile">
-                    <div class="thumb">
-                      <img
-                        src="assets/img/testimonial/tipo1.jpg"
-                        alt="img"
-                      />
+        <div class="as-container2">
+            <div class="row gx-0 justify-content-center">
+                <div class="col-xl-6 col-lg-5">
+                    <div class="wcu-thumb" data-bg-src="assets/img/testimonial/testimonials-car.jpg"></div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <div class="testi-wrap" data-bg-src="assets/img/testimonial/testi_bg.png">
+                        <div class="quote-icon">
+                            <img src="assets/img/testimonial/quote-icon.svg" alt="quote-icon" />
+                        </div>
+                        <div class="title-area mb-0">
+                            <span class="sub-title">Feedbacks</span>
+                            <h2 class="sec-title">Our Customer Feedback</h2>
+                        </div>
+                        <div class="as-carousel arrow-style-2" data-slide-show="1" data-lg-slide-show="1"
+                            data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true"
+                            data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true" data-md-arrows="true">
+                            <div class="testi-box2">
+                                <p class="testi_content">
+                                    <i class="fa fa-quote-left me-1"></i>
+                                    Ho trovato molta serietà sulle offerte auto proposte e
+                                    soprattutto sulla persona che gentilmente mi ha chiamato ed
+                                    ha risposto a tutti i miei quesiti in maniera puntuale.<i
+                                        class="fa fa-quote-right ms-1"></i>
+                                </p>
+                                <div class="testi-box_profile">
+                                    <div class="thumb">
+                                        <img src="assets/img/testimonial/tipo1.jpg" alt="signore-1" />
+                                    </div>
+                                    <div class="details">
+                                        <h4 class="testi-box_name">Carlo Ferretti</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testi-box2">
+                                <p class="testi_content">
+                                    <i class="fa fa-quote-left me-1"></i>
+                                    Carvizio, con i suoi suggerimenti, mi ha aiutato a trovare
+                                    l'auto che volevo e mi sono regalato anche un bel set di
+                                    oggetti per gli interni. Servizio completo per chi è
+                                    appassionato di motori.<i class="fa fa-quote-right ms-1"></i>
+                                </p>
+                                <div class="testi-box_profile">
+                                    <div class="thumb">
+                                        <img src="assets/img/testimonial/tipa.jpg" alt="signora-1" />
+                                    </div>
+                                    <div class="details">
+                                        <h4 class="testi-box_name">Maria Giannoni</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-box2">
+                                <p class="testi_content">
+                                    <i class="fa fa-quote-left me-1"></i>
+                                    In pochi click ho comprato coprivolante che volevo e anche
+                                    profumatore auto e tende parasole per i mie bimbi! Invece
+                                    che passare ora a scegliere, ho trovato subito quello che mi
+                                    serviva. Direi che Carvizio consiglia bene!<i class="fa fa-quote-right ms-1"></i>
+                                </p>
+                                <div class="testi-box_profile">
+                                    <div class="thumb">
+                                        <img src="assets/img/testimonial/tipo2.jpg" alt="signore-2" />
+                                    </div>
+                                    <div class="details">
+                                        <h4 class="testi-box_name">Antonio Faustini</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testi-box2">
+                                <p class="testi_content">
+                                    <i class="fa fa-quote-left me-1"></i>
+                                    Le selezioni proposte sono interessanti sia per la parte di
+                                    accessori che per la parte delle auto. Carvizio è un buon
+                                    compromesso per trovare ciò che serve per te e la tua auto<i
+                                        class="fa fa-quote-right ms-1"></i>
+                                </p>
+                                <div class="testi-box_profile">
+                                    <div class="thumb">
+                                        <img src="assets/img/testimonial/tipo3.jpg" alt="signore-3" />
+                                    </div>
+                                    <div class="details">
+                                        <h4 class="testi-box_name">Franco Paoletti</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="details">
-                      <h4 class="testi-box_name">Carlo Ferretti</h4>
-                
+                </div>
+            </div>
+        </div>
+    </section>
+    <br />
+    <br />
+    <!--==============================
+    Blog Area  
+==============================-->
+    <section class="blog-area space-bottom" id="blog-sec" data-bg-src="assets/img/bg/blog_bg_1.png">
+        <div class="container">
+            <div class="title-area text-center">
+                <span class="sub-title"><span class="double-line"></span> Blog & News</span>
+                <h2 class="sec-title">Articoli di tendenza</h2>
+            </div>
+            <div class="blog-slider row as-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2"
+                data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true" data-xl-arrows="true"
+                data-ml-arrows="true">
+                <div class="col-md-6 col-xl-4">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="https://blog.carvizio.it/wp-content/uploads/2025/02/honda-nissan-400x225.png"
+                                style="height: 210px" alt="honda-nissan" />
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title box-title">
+                                <a
+                                    href="https://blog.carvizio.it/honda-e-nissan-la-fusione-si-arena-definitivamente/">
+                                    Honda e Nissan: La Fusione Si Arena Definitivamente</a>
+                            </h3>
+                            <p class=" blog-text">
+                                La tanto discussa fusione tra Honda e Nissan, annunciata a sorpresa nel dicembre...
+                            </p>
+                            <a href="https://blog.carvizio.it/honda-e-nissan-la-fusione-si-arena-definitivamente/"
+                                class="line-btn">Leggi Ora</a>
+                        </div>
                     </div>
-                  </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="https://blog.carvizio.it/wp-content/uploads/2025/01/chi-ha-venduto-piu-auto-in-europa-nel-2024-1-400x302.png"
+                                style="height: 210px" alt="auto-più-venduta-in-europa" />
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title box-title">
+                                <a
+                                    href="https://blog.carvizio.it/il-mercato-auto-in-europa-nel-2024-spagna-e-regno-unito-spingono-le-vendite-toyota-e-volvo-crescono/">
+                                    Il mercato auto in Europa nel 2024: Spagna e Regno Unito spingono le vendite, Toyota
+                                    e Volvo crescono</a>
+                            </h3>
+                            <p class="blog-text">
+                                Il 2024 si chiude con un leggero segno positivo per il mercato europeo dell’auto
+                                (EU+EFTA+UK). Le immatricolazioni totali raggiungono quota...
+                            </p>
+                            <a href="https://blog.carvizio.it/il-mercato-auto-in-europa-nel-2024-spagna-e-regno-unito-spingono-le-vendite-toyota-e-volvo-crescono/"
+                                class="line-btn">Leggi Ora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="https://blog.carvizio.it/wp-content/uploads/2025/01/apple-carplay-400x225.png"
+                                style="height: 210px" alt="apple-carplay" />
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title box-title">
+                                <a
+                                    href="https://blog.carvizio.it/apple-carplay-che-fine-ha-fatto-la-nuova-versione/">
+                                    Apple CarPlay: che fine ha fatto la nuova versione?</a>
+                            </h3>
+                            <p class="blog-text">
+                                Presentata nel 2022 durante il WWDC di Apple, la nuova versione di Apple CarPlay prometteva...
+                            </p>
+                            <a href="https://blog.carvizio.it/apple-carplay-che-fine-ha-fatto-la-nuova-versione/"
+                                class="line-btn">Leggi Ora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="https://blog.carvizio.it/wp-content/uploads/2025/01/auto-2025.png"
+                                style="height: 210px" alt="quale-auto-acquistare" />
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title box-title">
+                                <a
+                                    href="https://blog.carvizio.it/acquistare-unauto-nel-2025-tendenze-e-consigli-utili-per-fare-la-scelta-giusta/">
+                                    Acquistare un’auto nel 2025: tendenze e consigli utili per fare la scelta giusta
+                                </a>
+                            </h3>
+                            <p class="blog-text">
+                                Il mercato automobilistico nel 2025 tra cambiamenti e incertezze Il 2025 si prospetta ...
+                            </p>
+                            <a href="https://blog.carvizio.it/acquistare-unauto-nel-2025-tendenze-e-consigli-utili-per-fare-la-scelta-giusta/"
+                                class="line-btn">Leggi Ora</a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="testi-box2">
-                  <p class="testi_content">
-                    <i class="fa fa-quote-left me-1"></i> Carvizio, con i suoi suggerimenti, mi ha aiutato a trovare l'auto che volevo e mi sono regalato anche un bel set di oggetti per gli interni. Servizio completo per chi è appassionato di motori.<i
-                      class="fa fa-quote-right ms-1"
-                    ></i>
-                  </p>
-                  <div class="testi-box_profile">
-                    <div class="thumb">
-                      <img
-                        src="assets/img/testimonial/tipa.jpg"
-                        alt="img"
-                      />
-                    </div>
-                    <div class="details">
-                      <h4 class="testi-box_name">Maria Giannoni</h4>
-   
-                    </div>
-                  </div>
-                </div>
-                <div class="testi-box2">
-                  <p class="testi_content">
-                    <i class="fa fa-quote-left me-1"></i> In pochi click ho comprato coprivolante che volevo e anche profumatore auto e tende parasole per i mie bimbi! Invece che passare ora a scegliere, ho trovato subito quello che mi serviva. Direi che Carvizio consiglia bene!<i
-                      class="fa fa-quote-right ms-1"
-                    ></i>
-                  </p>
-                  <div class="testi-box_profile">
-                    <div class="thumb">
-                      <img
-                      src="assets/img/testimonial/tipo2.jpg"
-                        alt="img"
-                      />
-                    </div>
-                    <div class="details">
-                      <h4 class="testi-box_name">Antonio Faustini</h4>
-          
-                    </div>
-                  </div>
-                </div>
-                <div class="testi-box2">
-                  <p class="testi_content">
-                    <i class="fa fa-quote-left me-1"></i> Le selezioni proposte sono interessanti sia per la parte di accessori che per la parte delle auto. Carvizio è un buon compromesso per trovare ciò che serve per te e la tua auto<i
-                      class="fa fa-quote-right ms-1"
-                    ></i>
-                  </p>
-                  <div class="testi-box_profile">
-                    <div class="thumb">
-                      <img
-                        src="assets/img/testimonial/tipo3.jpg"
-                        alt="img"
-                      />
-                    </div>
-                    <div class="details">
-                      <h4 class="testi-box_name">Franco Paoletti</h4>
-                     
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+
             </div>
-          </div>
         </div>
-      </div>
     </section>
-    
     <!--==============================
         Footer Area
 ==============================-->
-    <footer
-      class="footer-wrapper footer-layout2"
-      data-bg-src="assets/img/bg/footer_bg_2.webp"
-    >
-      <div
-        class="anime-img-1 shape-mockup jump d-none d-lg-block"
-        data-right="0"
-        data-top="120px"
-      >
-        <img src="assets/img/bg/footer_bg_2-shape.png" alt="img" />
-      </div>
+    <footer class="footer-wrapper footer-layout2" data-bg-src="assets/img/bg/footer_bg_2.webp">
+        <div class="anime-img-1 shape-mockup jump d-none d-lg-block" data-right="0" data-top="120px">
+            <img src="assets/img/bg/footer_bg_2-shape.png" alt="img" />
+        </div>
 
-      <div class="container">
-        <div class="footer-top">
-          <div class="row align-items-center">
-            <div class="col-xl-2">
-              <div class="footer-logo2 text-xl-start text-center">
-                <a href="index.html"
-                  ><img src="assets/img/logo_white.svg" alt="CarVizio"
-                /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="widget-area space2-bottom">
         <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-md-6 col-xxl-3 col-xl-3">
-              <div class="widget footer-widget">
-                <h3 class="widget_title">
-                  Perchè Carvizio <span class="line"></span>
-                </h3>
-                <div class="as-widget-about">
-                  <p class="about-text">
-                    Il comfort è una forma d’arte, come il design. Scegli gli
-                    accessori per la tua auto. Rendi i vostri viaggi sempre più
-                    piacevoli, sicuri e confortevoli.
-                  </p>
-                  <div class="as-social pt-2">
-                    <a 
-                    href="https://www.facebook.com/carvizio1/"
-                    target="_blank"
-                      ><i class="fa-brands fa-facebook-f"></i
-                    ></a>
-                    <a href="https://www.instagram.com/carvizio/"
-                    target="_blank"
-                      ><i class="fa-brands fa-instagram"></i
-                    ></a>
-                  </div>
+            <div class="footer-top">
+                <div class="row align-items-center">
+                    <div class="col-xl-2">
+                        <div class="footer-logo2 text-xl-start text-center">
+                            <a href="index.html"><img src="assets/img/logo_white.svg" alt="logo-carvizio" /></a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="col-md-6">
-              <div class="widget widget_nav_menu footer-widget">
-                <h3 class="widget_title">
-                  Link veloci <span class="line"></span>
-                </h3>
-                <div class="menu-all-pages-container">
-                  <ul class="menu2">
-                    <li><a href="index.html#about">Chi Siamo</a></li>
-                    <li>
-                      <a href="index.html#offerte-oggetti">Accessori Auto </a>
-                    </li>
-                    <li><a href="#offerte-auto">Auto Del Mese </a></li>
-                    <li><a href="contact.html">Contattaci</a></li>
-                  </ul>
+        </div>
+        <div class="widget-area space2-bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xxl-3 col-xl-3">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">
+                                Perchè Carvizio <span class="line"></span>
+                            </h3>
+                            <div class="as-widget-about">
+                                <p class="about-text">
+                                    Il comfort è una forma d’arte, come il design. Scegli gli
+                                    accessori per la tua auto. Rendi i vostri viaggi sempre più
+                                    piacevoli, sicuri e confortevoli.
+                                </p>
+                                <div class="as-social pt-2">
+                                    <a href="https://www.facebook.com/profile.php?id=61567089415230" target="_blank"><i
+                                            class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/carvizio/" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="widget widget_nav_menu footer-widget">
+                            <h3 class="widget_title">
+                                Link veloci <span class="line"></span>
+                            </h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu2">
+                                    <li><a href="index.html#about">Chi Siamo</a></li>
+                                    <li>
+                                        <a href="index.html#offerte-oggetti">Accessori Auto </a>
+                                    </li>
+                                    <li><a href="#offerte-auto">Auto Del Mese </a></li>
+                                    <li><a href="contact.html">Contattaci</a></li>
+                                    <li>
+                                        <a href="https://blog.carvizio.it/">Ultime Notizie</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div
-        class="copyright-wrap"
-        style="background: #1b1f29; border-color: #2a2f3d"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <p class="copyright-text">
-                <i class="fal fa-copyright me-1"></i>Copyright 2024
-                <a href="#">Carvizio.</a>
-                All Rights Reserved.
-              </p>
+        <div class="copyright-wrap" style="background: #1b1f29; border-color: #2a2f3d">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="copyright-text">
+                            <i class="fal fa-copyright me-1"></i>Copyright 2024
+                            <a href="#">Carvizio.</a>
+                            All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 text-end d-none d-lg-block">
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 text-end d-none d-lg-block">
-              <div class="footer-links">
-                <ul>
-                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                  <li><a href="cookie-policy.html">Cookie Policy</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </footer>
     <!-- Scroll To Top -->
     <div class="scroll-top">
-      <svg
-        class="progress-circle svg-content"
-        width="100%"
-        height="100%"
-        viewBox="-1 -1 102 102"
-      >
-        <path
-          d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-          style="
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
             transition: stroke-dashoffset 10ms linear 0s;
             stroke-dasharray: 307.919, 307.919;
             stroke-dashoffset: 307.919;
-          "
-        ></path>
-      </svg>
+          "></path>
+        </svg>
     </div>
 
     <!--==============================
 All Js File
 ============================== -->
     <script type="text/javascript">
-      var _iub = _iub || [];
-      _iub.csConfiguration = {
-        askConsentAtCookiePolicyUpdate: true,
-        enableFadp: true,
-        enableLgpd: true,
-        enableUspr: true,
-        fadpApplies: true,
-        floatingPreferencesButtonDisplay: "bottom-left",
-        perPurposeConsent: true,
-        siteId: 3541751,
-        usprApplies: false,
-        whitelabel: false,
-        cookiePolicyId: 77062462,
-        lang: "it",
-        cookiePolicyUrl: "https://adextraitalia.it/cookie-policy.html",
-        privacyPolicyUrl: "https://adextraitalia.it/privacy-policy/",
-        privacyPolicyNoticeAtCollectionUrl:
-          "https://adextraitalia.it/privacy-policy/",
-        banner: {
-          acceptButtonDisplay: true,
-          closeButtonDisplay: false,
-          customizeButtonDisplay: true,
-          explicitWithdrawal: true,
-          listPurposes: true,
-          position: "float-bottom-right",
-          rejectButtonDisplay: true,
-          showTitle: false,
-        },
-      };
+        var _iub = _iub || [];
+        _iub.csConfiguration = {
+            siteId: 3808951,
+            cookiePolicyId: 71873184,
+            lang: "it",
+            storage: { useSiteId: true },
+        };
     </script>
-    <script
-      type="text/javascript"
-      src="https://cs.iubenda.com/autoblocking/3541751.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//cdn.iubenda.com/cs/gpp/stub.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//cdn.iubenda.com/cs/iubenda_cs.js"
-      charset="UTF-8"
-      async
-    ></script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3808951.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
     <!-- Jquery -->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <!-- Slick Slider -->
@@ -1059,5 +1101,6 @@ All Js File
     <script src="assets/js/nice-select.min.js"></script>
     <!-- Main Js File -->
     <script src="assets/js/theme.js"></script>
-  </body>
+</body>
+
 </html>

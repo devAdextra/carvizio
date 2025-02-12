@@ -287,10 +287,11 @@ Service Area
         <div class="row gx-0">
           <div class="col-xl-8 contact-form-wrap">
             <div class="title-area mb-40">
-              <h2 class="sec-title">Contattaci se hai bisogno!</h2>
+              <h2 class="sec-title">Richiedi informazioni su un'auto</h2>
+              <p>Compila il form per ricevere informazioni sull'auto che ti interessa</p>
             </div>
             <form
-              action="contact.php"
+              action="contact2.php"
               method="POST"
             >
               <div class="row gx-24">
@@ -327,14 +328,14 @@ Service Area
 
                 <div class="form-group style-white2 col-12">
                   <textarea
-                    name="message"
-                    id="message"
+                    name="car_model"
+                    id="car_model"
                     cols="30"
-                    rows="3"
+                    rows="2"
                     class="form-control"
-                    placeholder="Messaggio"
+                    placeholder="Inserisci marca, modello e anno dell'auto che ti interessa"
                   ></textarea>
-                  <i class="fal fa-comment"></i>
+                  <i class="fal fa-car"></i>
                 </div>
                 <div class="form-check form-check-inline">
                   <input type="checkbox" id="agree" name="agree" value="true" />

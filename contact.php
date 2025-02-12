@@ -27,7 +27,8 @@ $adminMessage = "
         <li>Email: {$_POST['email']}</li>
         <li>Oggetto: {$_POST['message']}</li>
         <li>Privacy: {$_POST['agree']}</li>
-   
+   		<li>Newsletter: {$_POST['newsletter']}</li>
+		<li>Marketing: {$_POST['marketing']}</li>
       </ul>
     </body>
   </html>
