@@ -18622,6 +18622,9 @@ span.select2-selection.select2-selection--single:focus {
 
 /*------------------- 4.00. Special Offer -------------------*/
 /***offer area***/
+.offer-slider-wrap {
+  height:1100px
+}
 .offer-slider .slick-dots {
   position: absolute;
   left: 222px;
