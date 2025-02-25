@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "name": "Carvizio",
+  "url": "www.carvizio.it",
+  "logo": "https://www.carvizio.it/assets/img/logo-header.svg",
+  "alternateName": "Carvizio",
+  "sameAs": [
+    "https://www.facebook.com/people/Carvizio-Auto/61567089415230/",
+    "https://www.instagram.com/carvizio/"
+  ]
+}
+</script>
