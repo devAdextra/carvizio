@@ -1,0 +1,684 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>INFORMATIVA PRIVACY</title><style>
+    /* cspell:disable-file */
+    /* webkit printing magic: print all background colors */
+    html {
+        -webkit-print-color-adjust: exact;
+    }
+    * {
+        box-sizing: border-box;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    @media only screen {
+        body {
+            margin: 2em auto;
+            max-width: 900px;
+            color: rgb(55, 53, 47);
+        }
+    }
+    
+    body {
+        line-height: 1.5;
+        white-space: pre-wrap;
+    }
+    
+    a,
+    a.visited {
+        color: inherit;
+        text-decoration: underline;
+    }
+    
+    .pdf-relative-link-path {
+        font-size: 80%;
+        color: #444;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        letter-spacing: -0.01em;
+        line-height: 1.2;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    
+    .page-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0.75em;
+    }
+    
+    h1 {
+        font-size: 1.875rem;
+        margin-top: 1.875rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+        margin-top: 1.25rem;
+    }
+    
+    .source {
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        padding: 1.5em;
+        word-break: break-all;
+    }
+    
+    .callout {
+        border-radius: 3px;
+        padding: 1rem;
+    }
+    
+    figure {
+        margin: 1.25em 0;
+        page-break-inside: avoid;
+    }
+    
+    figcaption {
+        opacity: 0.5;
+        font-size: 85%;
+        margin-top: 0.5em;
+    }
+    
+    mark {
+        background-color: transparent;
+    }
+    
+    .indented {
+        padding-left: 1.5em;
+    }
+    
+    hr {
+        background: transparent;
+        display: block;
+        width: 100%;
+        height: 1px;
+        visibility: visible;
+        border: none;
+        border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    @media only print {
+        img {
+            max-height: 100vh;
+            object-fit: contain;
+        }
+    }
+    
+    @page {
+        margin: 1in;
+    }
+    
+    .collection-content {
+        font-size: 0.875rem;
+    }
+    
+    .column-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .column {
+        padding: 0 1em;
+    }
+    
+    .column:first-child {
+        padding-left: 0;
+    }
+    
+    .column:last-child {
+        padding-right: 0;
+    }
+    
+    .table_of_contents-item {
+        display: block;
+        font-size: 0.875rem;
+        line-height: 1.3;
+        padding: 0.125rem;
+    }
+    
+    .table_of_contents-indent-1 {
+        margin-left: 1.5rem;
+    }
+    
+    .table_of_contents-indent-2 {
+        margin-left: 3rem;
+    }
+    
+    .table_of_contents-indent-3 {
+        margin-left: 4.5rem;
+    }
+    
+    .table_of_contents-link {
+        text-decoration: none;
+        opacity: 0.7;
+        border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid rgba(55, 53, 47, 0.09);
+        border-collapse: collapse;
+    }
+    
+    table {
+        border-left: none;
+        border-right: none;
+    }
+    
+    th,
+    td {
+        font-weight: normal;
+        padding: 0.25em 0.5em;
+        line-height: 1.5;
+        min-height: 1.5em;
+        text-align: left;
+    }
+    
+    th {
+        color: rgba(55, 53, 47, 0.6);
+    }
+    
+    ol,
+    ul {
+        margin: 0;
+        margin-block-start: 0.6em;
+        margin-block-end: 0.6em;
+    }
+    
+    li > ol:first-child,
+    li > ul:first-child {
+        margin-block-start: 0.6em;
+    }
+    
+    ul > li {
+        list-style: disc;
+    }
+    
+    ul.to-do-list {
+        padding-inline-start: 0;
+    }
+    
+    ul.to-do-list > li {
+        list-style: none;
+    }
+    
+    .to-do-children-checked {
+        text-decoration: line-through;
+        opacity: 0.375;
+    }
+    
+    ul.toggle > li {
+        list-style: none;
+    }
+    
+    ul {
+        padding-inline-start: 1.7em;
+    }
+    
+    ul > li {
+        padding-left: 0.1em;
+    }
+    
+    ol {
+        padding-inline-start: 1.6em;
+    }
+    
+    ol > li {
+        padding-left: 0.2em;
+    }
+    
+    .mono ol {
+        padding-inline-start: 2em;
+    }
+    
+    .mono ol > li {
+        text-indent: -0.4em;
+    }
+    
+    .toggle {
+        padding-inline-start: 0em;
+        list-style-type: none;
+    }
+    
+    /* Indent toggle children */
+    .toggle > li > details {
+        padding-left: 1.7em;
+    }
+    
+    .toggle > li > details > summary {
+        margin-left: -1.1em;
+    }
+    
+    .selected-value {
+        display: inline-block;
+        padding: 0 0.5em;
+        background: rgba(206, 205, 202, 0.5);
+        border-radius: 3px;
+        margin-right: 0.5em;
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+        white-space: nowrap;
+    }
+    
+    .collection-title {
+        display: inline-block;
+        margin-right: 1em;
+    }
+    
+    .page-description {
+        margin-bottom: 2em;
+    }
+    
+    .simple-table {
+        margin-top: 1em;
+        font-size: 0.875rem;
+        empty-cells: show;
+    }
+    .simple-table td {
+        height: 29px;
+        min-width: 120px;
+    }
+    
+    .simple-table th {
+        height: 29px;
+        min-width: 120px;
+    }
+    
+    .simple-table-header-color {
+        background: rgb(247, 246, 243);
+        color: black;
+    }
+    .simple-table-header {
+        font-weight: 500;
+    }
+    
+    time {
+        opacity: 0.5;
+    }
+    
+    .icon {
+        display: inline-block;
+        max-width: 1.2em;
+        max-height: 1.2em;
+        text-decoration: none;
+        vertical-align: text-bottom;
+        margin-right: 0.5em;
+    }
+    
+    img.icon {
+        border-radius: 3px;
+    }
+    
+    .user-icon {
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 100%;
+        margin-right: 0.5rem;
+    }
+    
+    .user-icon-inner {
+        font-size: 0.8em;
+    }
+    
+    .text-icon {
+        border: 1px solid #000;
+        text-align: center;
+    }
+    
+    .page-cover-image {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        max-height: 30vh;
+    }
+    
+    .page-header-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .page-header-icon-with-cover {
+        margin-top: -0.72em;
+        margin-left: 0.07em;
+    }
+    
+    .page-header-icon img {
+        border-radius: 3px;
+    }
+    
+    .link-to-page {
+        margin: 1em 0;
+        padding: 0;
+        border: none;
+        font-weight: 500;
+    }
+    
+    p > .user {
+        opacity: 0.5;
+    }
+    
+    td > .user,
+    td > time {
+        white-space: nowrap;
+    }
+    
+    input[type="checkbox"] {
+        transform: scale(1.5);
+        margin-right: 0.6em;
+        vertical-align: middle;
+    }
+    
+    p {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    
+    .image {
+        border: none;
+        margin: 1.5em 0;
+        padding: 0;
+        border-radius: 0;
+        text-align: center;
+    }
+    
+    .code,
+    code {
+        background: rgba(135, 131, 120, 0.15);
+        border-radius: 3px;
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+        font-size: 85%;
+        tab-size: 2;
+    }
+    
+    code {
+        color: #eb5757;
+    }
+    
+    .code {
+        padding: 1.5em 1em;
+    }
+    
+    .code-wrap {
+        white-space: pre-wrap;
+        word-break: break-all;
+    }
+    
+    .code > code {
+        background: none;
+        padding: 0;
+        font-size: 100%;
+        color: inherit;
+    }
+    
+    blockquote {
+        font-size: 1.25em;
+        margin: 1em 0;
+        padding-left: 1em;
+        border-left: 3px solid rgb(55, 53, 47);
+    }
+    
+    .bookmark {
+        text-decoration: none;
+        max-height: 8em;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        align-items: stretch;
+    }
+    
+    .bookmark-title {
+        font-size: 0.85em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 1.75em;
+        white-space: nowrap;
+    }
+    
+    .bookmark-text {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bookmark-info {
+        flex: 4 1 180px;
+        padding: 12px 14px 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .bookmark-image {
+        width: 33%;
+        flex: 1 1 180px;
+        display: block;
+        position: relative;
+        object-fit: cover;
+        border-radius: 1px;
+    }
+    
+    .bookmark-description {
+        color: rgba(55, 53, 47, 0.6);
+        font-size: 0.75em;
+        overflow: hidden;
+        max-height: 4.5em;
+        word-break: break-word;
+    }
+    
+    .bookmark-href {
+        font-size: 0.75em;
+        margin-top: 0.25em;
+    }
+    
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+    .code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+    .serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+    .mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+    .pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+    .pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+    .pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+    .pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+    .pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+    .pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+    .pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+    .pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+    .pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+    .pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+    .pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+    .pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+    .pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+    .pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+    .pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+    .pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+    .highlight-default {
+        color: rgba(55, 53, 47, 1);
+    }
+    .highlight-gray {
+        color: rgba(120, 119, 116, 1);
+        fill: rgba(120, 119, 116, 1);
+    }
+    .highlight-brown {
+        color: rgba(159, 107, 83, 1);
+        fill: rgba(159, 107, 83, 1);
+    }
+    .highlight-orange {
+        color: rgba(217, 115, 13, 1);
+        fill: rgba(217, 115, 13, 1);
+    }
+    .highlight-yellow {
+        color: rgba(203, 145, 47, 1);
+        fill: rgba(203, 145, 47, 1);
+    }
+    .highlight-teal {
+        color: rgba(68, 131, 97, 1);
+        fill: rgba(68, 131, 97, 1);
+    }
+    .highlight-blue {
+        color: rgba(51, 126, 169, 1);
+        fill: rgba(51, 126, 169, 1);
+    }
+    .highlight-purple {
+        color: rgba(144, 101, 176, 1);
+        fill: rgba(144, 101, 176, 1);
+    }
+    .highlight-pink {
+        color: rgba(193, 76, 138, 1);
+        fill: rgba(193, 76, 138, 1);
+    }
+    .highlight-red {
+        color: rgba(212, 76, 71, 1);
+        fill: rgba(212, 76, 71, 1);
+    }
+    .highlight-default_background {
+        color: rgba(55, 53, 47, 1);
+    }
+    .highlight-gray_background {
+        background: rgba(248, 248, 247, 1);
+    }
+    .highlight-brown_background {
+        background: rgba(244, 238, 238, 1);
+    }
+    .highlight-orange_background {
+        background: rgba(251, 236, 221, 1);
+    }
+    .highlight-yellow_background {
+        background: rgba(251, 243, 219, 1);
+    }
+    .highlight-teal_background {
+        background: rgba(237, 243, 236, 1);
+    }
+    .highlight-blue_background {
+        background: rgba(231, 243, 248, 1);
+    }
+    .highlight-purple_background {
+        background: rgba(248, 243, 252, 1);
+    }
+    .highlight-pink_background {
+        background: rgba(252, 241, 246, 1);
+    }
+    .highlight-red_background {
+        background: rgba(253, 235, 236, 1);
+    }
+    .block-color-default {
+        color: inherit;
+        fill: inherit;
+    }
+    .block-color-gray {
+        color: rgba(120, 119, 116, 1);
+        fill: rgba(120, 119, 116, 1);
+    }
+    .block-color-brown {
+        color: rgba(159, 107, 83, 1);
+        fill: rgba(159, 107, 83, 1);
+    }
+    .block-color-orange {
+        color: rgba(217, 115, 13, 1);
+        fill: rgba(217, 115, 13, 1);
+    }
+    .block-color-yellow {
+        color: rgba(203, 145, 47, 1);
+        fill: rgba(203, 145, 47, 1);
+    }
+    .block-color-teal {
+        color: rgba(68, 131, 97, 1);
+        fill: rgba(68, 131, 97, 1);
+    }
+    .block-color-blue {
+        color: rgba(51, 126, 169, 1);
+        fill: rgba(51, 126, 169, 1);
+    }
+    .block-color-purple {
+        color: rgba(144, 101, 176, 1);
+        fill: rgba(144, 101, 176, 1);
+    }
+    .block-color-pink {
+        color: rgba(193, 76, 138, 1);
+        fill: rgba(193, 76, 138, 1);
+    }
+    .block-color-red {
+        color: rgba(212, 76, 71, 1);
+        fill: rgba(212, 76, 71, 1);
+    }
+    .block-color-default_background {
+        color: inherit;
+        fill: inherit;
+    }
+    .block-color-gray_background {
+        background: rgba(248, 248, 247, 1);
+    }
+    .block-color-brown_background {
+        background: rgba(244, 238, 238, 1);
+    }
+    .block-color-orange_background {
+        background: rgba(251, 236, 221, 1);
+    }
+    .block-color-yellow_background {
+        background: rgba(251, 243, 219, 1);
+    }
+    .block-color-teal_background {
+        background: rgba(237, 243, 236, 1);
+    }
+    .block-color-blue_background {
+        background: rgba(231, 243, 248, 1);
+    }
+    .block-color-purple_background {
+        background: rgba(248, 243, 252, 1);
+    }
+    .block-color-pink_background {
+        background: rgba(252, 241, 246, 1);
+    }
+    .block-color-red_background {
+        background: rgba(253, 235, 236, 1);
+    }
+    .select-value-color-uiBlue { background-color: undefined; }
+    .select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+    .select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+    .select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+    .select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+    .select-value-color-transparentGray { background-color: undefined; }
+    .select-value-color-translucentGray { background-color: undefined; }
+    .select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+    .select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+    .select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+    .select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+    .select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+    .select-value-color-pageGlass { background-color: undefined; }
+    .select-value-color-washGlass { background-color: undefined; }
+    
+    .checkbox {
+        display: inline-flex;
+        vertical-align: text-bottom;
+        width: 16;
+        height: 16;
+        background-size: 16px;
+        margin-left: 2px;
+        margin-right: 5px;
+    }
+    
+    .checkbox-on {
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+    }
+    
+    .checkbox-off {
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+    }
+        
+    </style></head><body><article id="1bcd87b7-3814-8014-bcc4-c2461f3163bc" class="page sans"><header><h1 class="page-title"><strong>INFORMATIVA PRIVACY</strong></h1><p class="page-description"></p></header><div class="page-body"><p id="1bcd87b7-3814-80a2-b8b4-c9014c3b0c64" class=""><strong>A partire dal 30/06/2023 abbiamo modificato la gestione dei dati dei clienti.</strong></p><p id="1bcd87b7-3814-800a-a62d-c817c320b3ef" class="">Sai che da gennaio 2021, dalla fusione di PSA Automobiles SA e Fiat Chrysler Automobiles N.V, è nata Stellantis N.V che copre i seguenti marchi automobilistici: Abarth, Alfa Romeo, Citroën, DS Automobiles, Fiat, Fiat Professional, Jeep, Lancia, Opel, Peugeot, Vauxhall, Spoticar, Mopar, Stellantis &amp; You ?</p><p id="1bcd87b7-3814-8077-81ea-edb1c710efc8" class="">Con la presente ti informiamo che, a seguito di una riorganizzazione interna del Gruppo Stellantis, volta a centralizzare il trattamento dei dati personali dei Clienti, a partire dal 30/06/2023, tutte le attività di Customer Relationship Management (CRM) delle Società europee del Gruppo saranno gestite dalla società Stellantis Europe S.p.A., con sede legale in C.so G. Agnelli 200, 10135 - Torino, Italia, che agirà in qualità di autonomo Titolare del trattamento.</p><p id="1bcd87b7-3814-805d-a008-e71ae5dda2a7" class="">Tale riorganizzazione interna comporterà il trasferimento alla società Stellantis Europe S.p.A. della gestione dei siti web dei marchi Stellantis sopra indicati, delle App, nonché di tutti i dati personali dei Clienti che hanno aderito alle iniziative commerciali dei suddetti marchi.</p><p id="1bcd87b7-3814-8080-a289-d2ed3b3f2768" class=""><strong>Privacy Policy generale sulla privacy di Stellantis Europe (in vigore dal 30/06/2023)</strong></p><p id="1bcd87b7-3814-801e-8772-e7875fdf5e0e" class="">Se stai leggendo questo documento (&quot;<strong>Privacy Policy</strong>&quot;), è perché stai visitando il Nostro Sito Web e/o la nostra Applicazione, o perché hai partecipato a uno dei Nostri Eventi. La presente Privacy Policy è redatta ai sensi dell&#x27;art. 13 del Regolamento UE 679/2016 (di seguito &quot;<strong>GDPR</strong>&quot;) e ti fornisce alcuni esempi di come trattiamo i tuoi Dati Personali, nonché le Definizioni rimandando a spiegazioni più dettagliate (in calce alla presente Privacy Policy) per i termini in maiuscolo qui riportati. Per qualsiasi chiarimento in merito alla presente Privacy Policy o alle modalità di trattamento dei tuoi Dati, invia la tua richiesta a: <a href="mailto:dataprotectionofficer@stellantis.com">dataprotectionofficer@stellantis.com</a></p><p id="1bcd87b7-3814-8048-9000-d62ec39f9e94" class=""><strong>1. Chi siamo</strong></p><p id="1bcd87b7-3814-80c9-9f83-d98a39ed4c45" class=""><strong>Stellantis Europe S.p.A.</strong> con sede legale in Corso Agnelli 200, 10135 Torino, Italia (di seguito, <strong>&quot;Stellantis Europe&quot;; &quot;noi&quot;</strong> o <strong>&quot;ci&quot;</strong>) è il Titolare del Trattamento dei tuoi Dati Personali.</p><p id="1bcd87b7-3814-8068-acfa-e67544a8c16c" class=""><strong>2. Quali Dati raccogliamo e trattiamo</strong></p><p id="1bcd87b7-3814-805b-8257-e2250b17a9cc" class="">Raccogliamo Dati dal Nostro Sito Web (inclusa la tua area personale sul Nostro Sito Web) e dall&#x27;Applicazione, nonché durante i Nostri Eventi. I Dati raccolti e le relative finalità di trattamento dipendono dalle modalità di utilizzo dei nostri Servizi e dalla gestione delle impostazioni del Browser, del Dispositivo e dell&#x27;Applicazione in uso. Le finalità per la raccolta dei tuoi Dati Personali sono indicate alla sezione &quot;Perché raccogliamo e trattiamo i tuoi Dati&quot;.</p><p id="1bcd87b7-3814-80c0-9aff-c7518cf34c8c" class=""><strong>a) Dati forniti dall&#x27;utente</strong></p><p id="1bcd87b7-3814-8031-9c05-ca96c70f085c" class="">Quando utilizzi i nostri Servizi, puoi fornirci Dati Personali quali nome, numero/i di telefono/cellulare, indirizzo e-mail, luogo di residenza o dati di terzi, nonché le tue preferenze (ad esempio, su determinati modelli di veicoli o servizi disponibili presso il tuo rivenditore locale). È il caso, ad esempio, di quando richiedi un test drive, di quando cerchi il rivenditore più vicino a te, di quando partecipi a uno dei Nostri Eventi o di quando ci poni domande, fai richieste o interagisci con i nostri Servizi di assistenza (ad esempio, quando ci contatti per chiedere informazioni, per presentare un reclamo o per darci un feedback o nuove idee). In questi casi, puoi chiamarci al nostro numero di assistenza clienti o compilare un modulo online o contattarci via chat, se disponibile.</p><p id="1bcd87b7-3814-80fb-b607-ef120551f173" class="">Puoi anche scegliere di fornirci informazioni sulla tua posizione se, ad esempio, vuoi cercare un concessionario/rivenditore/officina della Nostra Rete nella zona di tuo interesse (ad esempio Torino) utilizzando Il Nostro Sito Web e la nostra Applicazione.</p><p id="1bcd87b7-3814-806e-8f79-cc7d55848f12" class="">Se ci fornisci i dati di terzi, sarai ritenuto responsabile di aver condiviso tali informazioni. Devi essere legalmente autorizzato a condividerle (cioè autorizzato da terzi a condividere le loro informazioni, o la condivisione deve essere necessaria e giustificata da unmotivo legittimo). Devi manlevarci da qualsiasi responsabilità in caso di eventuali reclami, pretese o richieste di risarcimento danni che potrebbero derivare dal trattamento di Dati Personali di terzi in violazione della legge applicabile sulla protezione dei dati.</p><p id="1bcd87b7-3814-8048-b77b-df7c4fb4b148" class=""><strong>b) Dati raccolti dal Browser, dal Dispositivo e dall&#x27;Applicazione</strong></p><p id="1bcd87b7-3814-8069-9cf6-dc40aa14d0ce" class="">Quando utilizzi il Nostro Sito Web e la nostra Applicazione, raccogliamo informazioni sul Browser, sul Dispositivo e sull&#x27;Applicazione che stai utilizzando. Queste informazioni includono il tuo Indirizzo IP, la data, l&#x27;ora e l&#x27;URL richiesto, gli Identificatori Unici e altre informazioni come il tipo di Browser o Dispositivo. Le informazioni relative al Browser o al Dispositivo possono includere il sistema operativo, la lingua, le impostazioni di rete, l&#x27;operatore telefonico o il provider Internet, le applicazioni di terzi installate e gli elenchi di plug-in.</p><p id="1bcd87b7-3814-8079-8ec7-d18d7563e293" class="">Alcune di queste informazioni vengono raccolte utilizzando Cookie e Altre Tecnologie di Tracciamento presenti nel Browser o nel Dispositivo dell&#x27;utente. Questo ci aiuta, ad esempio, a evitare malfunzionamenti durante la fornitura dei Servizi e ci permette di fornire Contenuti che potrebbero essere utili all’Utente. Ulteriori informazioni sui Cookie sono disponibili nella nostra Cookie Policy.</p><p id="1bcd87b7-3814-80d0-a00e-db789434e634" class=""><strong>c) Dati desunti dalla tua attività</strong></p><p id="1bcd87b7-3814-8008-86e4-d54fb4379ea4" class="">Raccogliamo informazioni basate sulle interazioni dell&#x27;utente con i nostri Servizi al fine di migliorarli (ad esempio, se vediamo che l&#x27;utente è interessato a un particolare modello di Veicolo, ai Nostri Eventi o ai check-up periodici dei veicoli in una determinata area geografica, ci concentreremo sulla fornitura di tali contenuti) e di comprendere i Contenuti che potrebbero essere utili all&#x27;Utente.</p><p id="1bcd87b7-3814-806a-a168-e8c810292cf0" class="">In altri casi, se ci contatti via e-mail, posta, telefono o altro in merito ai Veicoli o richiedi altre informazioni, raccogliamo e conserviamo un registro dei tuoi Dati di contatto, delle comunicazioni e delle nostre risposte. Se ci contatti per telefono, ti verranno fornite ulteriori informazioni durante la telefonata.</p><p id="1bcd87b7-3814-804e-a535-c640c8ea868d" class=""><strong>d) Informazioni sulla tua posizione</strong></p><p id="1bcd87b7-3814-804c-afb3-d7bea4da7fa7" class="">Raccogliamo informazioni sulla tua posizione per permetterti di visualizzare il concessionario/rivenditore/officina della Nostra Rete più vicino a te, come parte dei nostri Servizi, e per fornirti Contenuti che potrebbero essere utili all’Utente. La tua posizione puoi essere determinata attraverso:</p><ul id="1bcd87b7-3814-8096-be83-c9607660d3b5" class="bulleted-list"><li style="list-style-type:disc">l’inserimento manuale di un indirizzo, una città o un codice postale;</li></ul><ul id="1bcd87b7-3814-802d-97fe-fb52ade63708" class="bulleted-list"><li style="list-style-type:disc">i Sensori del Dispositivo;</li></ul><ul id="1bcd87b7-3814-8069-9a88-f4de3e1cd794" class="bulleted-list"><li style="list-style-type:disc">l&#x27;Indirizzo IP dell&#x27;utente, raccolto grazie all&#x27;autorizzazione del Browser o del Dispositivo.</li></ul><p id="1bcd87b7-3814-802e-8090-de726a06f2f2" class="">La posizione dell&#x27;utente viene determinata in modo più o meno accurato e coerente a seconda che venga raccolta dal Browser o dal Dispositivo e dalle impostazioni sulla privacy impostate dall&#x27;utente. Ci impegniamo al massimo per garantire che le informazioni sulla tua posizione non vengano utilizzate per raccogliere i tuoi Dati Sensibili.</p><p id="1bcd87b7-3814-80fe-8327-e8195941700f" class="">Puoi limitare la raccolta della tua posizione modificando le impostazioni del tuo Browser o Dispositivo, come indicato nella successiva sezione &quot;Come controllare i tuoi dati e gestire le tue scelte&quot;.</p><p id="1bcd87b7-3814-80f3-9389-c0ae97fb0858" class=""><strong>3. Fonte dei Dati Personali</strong></p><p id="1bcd87b7-3814-8037-b99b-cf21fddee509" class=""><strong>a) Dati raccolti dai siti web e dalle app dei nostri Partner</strong></p><p id="1bcd87b7-3814-8040-b5ce-f86a17a0daaf" class="">Raccogliamo inoltre informazioni sull&#x27;utente dai siti web e dalle app dei nostri Partner. I nostri Partner possono comunicarci i tuoi Dati Personali solo dopo averci assicurato contrattualmente di aver ottenuto il tuo consenso o di avere un&#x27;altra base giuridica che legittimi la loro comunicazione/condivisione di tali Dati con noi (ad esempio, se chiedi a uno dei nostri Partner di prenotare un test drive, quando acquisti e quando richiedi di ricevere comunicazioni commerciali). Questa pratica sarà indicata di seguito come &quot;Raccolta Indiretta&quot;. A questo proposito, desideriamo sottolineare che facciamo ogni sforzo possibile per verificare la conformità dei Dati che riceviamo prima che vengano utilizzati. Inoltre, chiediamo loro di non fornirci i tuoi Dati Sensibili.</p><p id="1bcd87b7-3814-80ee-a1d4-fb976b3ea563" class=""><strong>b) Dati raccolti da fonti pubbliche o pubblicamente accessibili</strong></p><p id="1bcd87b7-3814-8030-9e69-ddbab7f4239c" class="">Possiamo raccogliere o arricchire i tuoi Dati Personali con informazioni ottenute da fonti pubbliche accessibili nei limiti della legge a noi applicabile. Tali fonti possono includere registri pubblici, giornali online, liste o elenchi pubblici. Si prega di notare che viene sempre effettuata una verifica preliminare sulla possibilità di utilizzare tali informazioni, secondo le migliori prassi stabilite dalla rispettiva autorità competente a cui siamo soggetti (attualmente l&#x27;Autorità Garante italiana - Autorità Garante per la protezione dei Dati Personali).</p><p id="1bcd87b7-3814-802a-8932-c2a60c06ab07" class=""><strong>4. Perché raccogliamo e trattiamo i tuoi Dati e base giuridica</strong></p><p id="1bcd87b7-3814-8004-9295-c8462145217e" class="">I tuoi Dati servono per le seguenti finalità:</p><p id="1bcd87b7-3814-8008-8a70-f1022f3930fa" class=""><strong>a) Facilitare la raccolta e la correzione dei tuoi Dati</strong></p><p id="1bcd87b7-3814-8084-8ab4-e5f8d57a6465" class="">Nella misura consentita dalla legge applicabile in materia di protezione dei dati, utilizziamo i tuoi Dati, in particolare quelli da te forniti alla Nostra Rete, per aggiornare le informazioni che abbiamo su di te come proprietario di uno dei nostri Veicoli o come persona interessata ai marchi Stellantis. Questo scopo include anche la condivisione con la Nostra Rete e con i Costruttori di Autoveicoli per assicurarci che i tuoi Dati Personali siano corretti e aggiornati.</p><p id="1bcd87b7-3814-804f-bbbd-df21e0052075" class="">Questo trattamento si basa sul legittimo interesse di Stellantis Europe, della Nostra Rete e dei Costruttori di Autoveicoli a mantenere aggiornata la qualità dei Dati Personali relativi a proprietari e clienti.</p><p id="1bcd87b7-3814-80b4-b1a9-cf9728439c64" class=""><strong>b) Fornire i nostri Servizi e il relativo supporto</strong></p><p id="1bcd87b7-3814-80ca-90e5-e6761f01b2c5" class="">Utilizziamo i tuoi Dati per offrirti i nostri Servizi, compresa la prenotazione di test drive sul Nostro Sito Web e sull&#x27;Applicazione; per organizzare i Nostri Eventi a cui partecipi; per rispondere alle tue richieste/suggerimenti/segnalazioni.</p><p id="1bcd87b7-3814-805c-bfb0-e4b3869984a8" class="">Questo trattamento si basa sull&#x27;esecuzione di un obbligo contrattuale o di misure precontrattuali adottate su tua richiesta.</p><p id="1bcd87b7-3814-80fe-b1d5-daabe9e26938" class=""><strong>c) Invio di comunicazioni promozionali</strong></p><p id="1bcd87b7-3814-80b1-8e13-cb8d9d29e1e5" class="">Possiamo utilizzare i tuoi Dati di contatto (e-mail, telefono, SMS, indirizzo postale e/o qualsiasi altro mezzo disponibile) per l&#x27;invio di comunicazioni promozionali o per ricerche di mercato e sondaggi tra i consumatori che includono contenuti di marketing. Queste comunicazioni riguardano tutti i marchi attuali e futuri di Stellantis Europe (ad esempio, Fiat, Fiat Professional, Alfa Romeo, Lancia, Abarth, Peugeot, Citroên, DS automobiles, Opel, Jeep, Mopar, Vauxhall) nonché i marchi delle società del gruppo Stellantis, quali ad esempio Stellantis Financial Services S.A., Stellantis Financial Services Italia S.p.A., Stellantis Renting S.p.A., Stellantis Insurance Limited, Stellantis Life Insurance Limited, Stellantis Insurance Europe Limited e Stellantis Life Insurance Europe Limited.</p><p id="1bcd87b7-3814-80a9-acf9-ec5977e07cb2" class="">In alcuni casi, le comunicazioni possono includere promozioni di prodotti o servizi di Partner selezionati. Quando inviamo questo tipo di comunicazioni, possiamo agire in qualità di Contitolare del Trattamento con il Partner in questione. Prima dell&#x27;invio di qualsiasi comunicazione all&#x27;utente, saranno stipulati accordi e informazioni specifiche con tali Partner. A questo proposito, precisiamo che nessuna comunicazione ti sarà inviata senza il tuo preventivo consenso, che potrai fornire attraverso apposite caselle di spunta.</p><p id="1bcd87b7-3814-8040-8461-f9a133346fad" class=""><strong>d) Rilevare le anomalie e migliorare i nostri Servizi</strong></p><p id="1bcd87b7-3814-80fe-a82c-f690c2802088" class="">Utilizziamo i Dati forniti dall&#x27;utente, i Dati raccolti dal Browser, dal Dispositivo e dall&#x27;Applicazione, i Dati desunti dalle attività dell&#x27;utente e le Informazioni Aggregate al fine di evitare anomalie nei nostri Servizi. Ad esempio, possiamo rilevare anomalie quando l&#x27;utente apre una sezione del Nostro Sito Web e della nostra Applicazione, accede a un link o quando è presente un bug nel nostro sistema.</p><p id="1bcd87b7-3814-806f-bd9a-e401fb3bec2b" class="">Il trattamento si basa sulla nostra necessità di garantire i migliori Servizi e sul nostro legittimo interesse a evitare eventuali interruzioni del servizio.</p><p id="1bcd87b7-3814-804a-a273-d35da2507116" class=""><strong>e) Escludere l&#x27;utente da comunicazioni promozionali non pertinenti.</strong></p><p id="1bcd87b7-3814-8060-bb81-cd27545c0f70" class="">Trattiamo i tuoi Dati per escluderti dalle comunicazioni promozionali, nel caso in cui tali comunicazioni non siano coerenti con il tuo profilo (ad esempio, se risiedi in Italia, non condivideremo promozioni relative alla Francia, ecc.)</p><p id="1bcd87b7-3814-8065-aeec-f12fabf077a9" class="">Questo trattamento si basa sul nostro legittimo interesse a ridurre o utilizzare efficacemente il nostro budget di marketing e sul tuo legittimo interesse a non ricevere comunicazioni non pertinenti.</p><p id="1bcd87b7-3814-8043-b362-c7ebf5170d1d" class=""><strong>f) Analizzare le preferenze e i comportamenti dell&#x27;utente al fine di personalizzare i nostri Servizi e le nostre comunicazioni, compresi i Contenuti che potrebbero essere utili all&#x27;Utente</strong></p><p id="1bcd87b7-3814-8050-b97d-d8d692e8f7e9" class="">Utilizziamo i tuoi Dati, in particolare i Dati desunti dalle tue attività, i Dati del Veicolo, le Informazioni sulla tua posizione (se condivise con noi) e i Dati raccolti dal Browser, dal Dispositivo e dall&#x27;Applicazione, per migliorare i nostri Servizi (ad esempio, il Nostro Sito Web e l&#x27;Applicazione, i Nostri Eventi, le comunicazioni promozionali) e per mostrarti Contenuti che potrebbero essere utili all’Utente, anche su piattaforme di social media o attraverso piattaforme di Pubblicità Programmatica, solo nella misura in cui ci hai autorizzato a caricarli su queste piattaforme.</p><p id="1bcd87b7-3814-8068-987b-ec756f7d50e6" class="">I Servizi e/o le comunicazioni e/o i Contenuti che possono essere utili all&#x27;Utente si basano sul tuo comportamento, i tuoi interessi, le tue esigenze, le tue preferenze e il tuo profilo; tali finalità possono essere raggiunte anche sulla base dei Dati Personali raccolti attraverso l&#x27;uso di Cookie o di Altre Tecnologie di Tracciamento per analizzare e prevedere le preferenze del cliente e fornirgli offerte su misura.</p><p id="1bcd87b7-3814-80b2-8e40-ebd9ab3844d4" class="">Contenuti che potrebbero essere utili all’Utente:</p><ul id="1bcd87b7-3814-80a6-beb6-d800cf27b7ce" class="bulleted-list"><li style="list-style-type:disc">non vengono creati utilizzando Dati Sensibili, come quelli che possono derivare dalle informazioni sulla tua posizione;</li></ul><ul id="1bcd87b7-3814-802b-80e4-c248977f6427" class="bulleted-list"><li style="list-style-type:disc">possono essere visibili anche su siti web e applicazioni mobili diversi dai nostri una volta caricati sulle piattaforme di Pubblicità Programmatica solo nella misura in cui ci hai autorizzato a caricarli su tali piattaforme.</li></ul><p id="1bcd87b7-3814-8018-b33b-cb641ac87396" class="">Questo trattamento si basa sul tuo consenso preventivo.</p><p id="1bcd87b7-3814-8066-8c8f-f6946394846d" class="">Quando ti indirizziamo su piattaforme di social media o attraverso piattaforme di Pubblicità Programmatica, possiamo agire in qualità di Contitolare del Trattamento con il relativo fornitore della piattaforma. Prima dell&#x27;invio di qualsiasi comunicazione all&#x27;utente, saranno stipulati accordi e informazioni specifiche con il fornitore della piattaforma. Se non desideri Servizi o Contenuti che potrebbero essere utili all’Utente, puoi modificare le tue preferenze, come spiegato nella sezione &quot;Come controllare i tuoi Dati e gestire le tue scelte&quot; di seguito.</p><p id="1bcd87b7-3814-804f-95ff-c71e6460d773" class=""><strong>g) Analizzare e migliorare i nostri Servizi e creare nuovi Servizi e funzionalità</strong></p><p id="1bcd87b7-3814-8029-8966-c9e1f70974be" class="">Utilizziamo i tuoi Dati e le Informazioni Aggregate per misurare le prestazioni dei nostri Servizi o per crearne di nuovi. Ciò puoi avvenire, ad esempio, attraverso l&#x27;analisi delle tue interazioni con la Nostra Rete, i Nostri Eventi, la nostra newsletter e/o le nostre comunicazioni promozionali (se richieste).</p><p id="1bcd87b7-3814-80b8-98b3-e92155779be2" class="">Per quanto possibile, utilizziamo Dati anonimizzati o pseudonimizzati per questi scopi. Solo in casi eccezionali può essere possibile un riferimento personale. In questi casi, si applica quanto segue: ad eccezione del tuo consenso alla personalizzazione dei nostri Servizi, la misurazione dell&#x27;efficacia dei nostri Servizi e la creazione di nuovi Servizi si basano sul nostro legittimo interesse a creare e mantenere Servizi realmente utili per i nostri utenti.</p><p id="1bcd87b7-3814-8077-ba6f-f864035b8d6c" class=""><strong>h) Condividere i Dati con i Partner per le loro finalità di marketing</strong></p><p id="1bcd87b7-3814-8015-a776-c3a495883926" class="">Condividiamo i tuoi Dati di contatto con Partner terzi selezionati per i loro scopi di marketing autonomi. I Partner ti contatteranno solo con mezzi automatizzati (ad esempio, e-mail, SMS, telefonate con registratore) e saranno obbligati a fornire la loro Privacy Policy.</p><p id="1bcd87b7-3814-80fe-b04f-fc15f8d3cbc4" class="">Questo trattamento si basa sul tuo consenso preventivo. L&#x27;elenco completo o le categorie di Partner con cui abbiamo condiviso direttamente i tuoi Dati sono disponibili all&#x27;indirizzo: <a href="https://privacyportal.stellantis.com/">https://privacyportal.stellantis.com</a>.</p><p id="1bcd87b7-3814-801b-9669-fa72711fffe8" class=""><strong>i) Adempiere agli obblighi legali e fiscali</strong></p><p id="1bcd87b7-3814-807e-82c3-fa0445e63937" class="">Potremmo utilizzare i tuoi Dati per adempiere agli obblighi di legge e agli ordini a cui siamo soggetti, che costituiscono la base giuridica per il trattamento dei tuoi Dati.</p><p id="1bcd87b7-3814-803b-b703-e23c1c66cc48" class="">Alcune legislazioni potrebbero richiederci di condividere i tuoi Dati con le autorità pubbliche (ad esempio, campagne di richiamo). Se questa condivisione non fosse richiesta dalla legge del tuo paese, potremmo inviare ugualmente i tuoi Dati, come spiegato più dettagliatamente nella successiva sezione &quot;Protezione dei nostri interessi e dei tuoi interessi&quot;.</p><p id="1bcd87b7-3814-808e-ace7-db85aa4dd161" class=""><strong>j) Invio di comunicazioni aziendali e istituzionali</strong></p><p id="1bcd87b7-3814-80ad-b07e-d33ac7e14b4f" class="">Nei limiti consentiti dalla legge sulla protezione dei Dati, condividiamo i tuoi Dati di contatto per inviare sondaggi aziendali e comunicazioni istituzionali riguardanti l’intero Gruppo Stellantis. Si tratta di comunicazioni non promozionali inviate da noi per conto o in sostituzione dei Costruttori di Autoveicoli, sulla base del legittimo interesse a fornire informazioni coerenti all’utente.</p><p id="1bcd87b7-3814-8044-81c6-f2c313a1a868" class=""><strong>k) Tutela dei nostri interessi e dei tuoi interessi</strong></p><p id="1bcd87b7-3814-8022-9cf6-fbf30b979824" class="">Nella misura consentita dalla legge applicabile in materia di protezione dei Dati, potremmo dover utilizzare i tuoi Dati per individuare, prevenire e rispondere a comportamenti fraudolenti e illegali o attività che potrebbero compromettere la sicurezza dei nostri Servizi e del Nostro Sito web e Applicazione. Ciò potrebbe verificarsi quando l&#x27;utente utilizza la nostra Applicazione in modi diversi da quelli consentiti, al fine di verificare la cosiddetta Raccolta Indiretta, o in caso di comportamento inappropriato ai Nostri Eventi. Tali finalità comprendono anche verifiche e valutazioni delle nostre operazioni commerciali, dei controlli di sicurezza, dei controlli finanziari, dei registri e del programma di gestione delle informazioni, e in ogni altro modo relativo all&#x27;amministrazione delle nostre attività generali, della contabilità, della tenuta dei registri e delle funzioni legali.</p><p id="1bcd87b7-3814-8013-9a5d-f7a21c63b48a" class="">Tali finalità si basano sul nostro legittimo interesse a salvaguardare i nostri interessi e a proteggere i nostri clienti, compreso l&#x27;utente.</p><p id="1bcd87b7-3814-808a-8d36-fe311091b3b6" class=""><strong>5. Come utilizziamo i tuoi Dati (modalità di trattamento)</strong></p><p id="1bcd87b7-3814-8021-ad17-e0186f583878" class="">I Dati raccolti per le finalità sopra indicate sono trattati sia manualmente che in modo automatizzato, ossia attraverso programmi o algoritmi che analizzano i Dati desunti dalle attività dell&#x27;utente, le informazioni sulla tua posizione e i Dati raccolti dal Browser, dal Dispositivo e dall&#x27;Applicazione.</p><p id="1bcd87b7-3814-803b-973c-d6f4d3bf5de6" class="">I tuoi Dati possono anche essere soggetti a Combinazione e/o Incrocio, nella misura in cui ciò è consentito dalla legge applicabile in materia di protezione dei Dati. Questo ci permette di capire, ad esempio, se un singolo utente utilizza i nostri Servizi con lo stesso Indirizzo IP o gli stessi Identificatori Univoci del Browser e del Dispositivo; o se le comunicazioni promozionali o i Contenuti che potrebbero essere utili all&#x27;Utente sono strettamente correlati alle Informazioni sulla tua posizione o ai Dati forniti attraverso le tue attività o ai Dati raccolti dal Browser, dal Dispositivo e dall&#x27;Applicazione. La Combinazione e/o Incrocio dei tuoi Dati per le finalità per cui li trattiamo (ad esempio, la personalizzazione dei Servizi) può essere attivata o disattivata come spiegato nella successiva sezione &quot;Come controllare i tuoi Dati e gestire le tue scelte&quot;.</p><p id="1bcd87b7-3814-80f5-bd18-f6b11f1cb85c" class=""><strong>6. Come possiamo divulgare i tuoi Dati</strong></p><p id="1bcd87b7-3814-8070-9a4f-d12a5bb70f71" class="">Possiamo divulgare i tuoi Dati ai seguenti destinatari e/o categorie di destinatari (&quot;Destinatari&quot;):</p><ul id="1bcd87b7-3814-809d-afac-ed9909b05149" class="bulleted-list"><li style="list-style-type:disc">Persona da noi autorizzate a svolgere una qualsiasi delle attività relative ai Dati descritte in questo documento: i nostri dipendenti e collaboratori che si sono assunti un obbligo di riservatezza e si attengono a regole specifiche per il trattamento dei tuoi Dati;</li></ul><ul id="1bcd87b7-3814-80e1-a340-c946ebf6f381" class="bulleted-list"><li style="list-style-type:disc">I nostri Responsabili del trattamento: soggetti esterni ai quali deleghiamo alcune attività di trattamento. Ad esempio, fornitori di sistemi di sicurezza, consulenti contabili e di altro tipo, fornitori di hosting di dati, banche, assicurazioni, ecc. Abbiamo stipulato accordi con ciascuno dei nostri Responsabili del trattamento per garantire che i tuoi Dati siano trattati con adeguate garanzie e solo in base alle nostre istruzioni;</li></ul><ul id="1bcd87b7-3814-80bc-8acb-c303799b1ce8" class="bulleted-list"><li style="list-style-type:disc">Amministratori di sistema: i nostri dipendenti o quelli dei Responsabili del trattamento ai quali abbiamo delegato la gestione dei nostri sistemi informatici e che sono quindi in grado di accedere, modificare, sospendere o limitare il trattamento dei tuoi Dati. Questi soggetti sono stati selezionati, adeguatamente formati e le loro attività sono tracciate da sistemi che non possono modificare, come previsto dalle disposizioni della nostra competente Autorità di controllo;</li></ul><ul id="1bcd87b7-3814-801f-aced-f0335119c7f7" class="bulleted-list"><li style="list-style-type:disc">La nostra Rete e i Costruttori di Autoveicoli di riferimento: la Nostra Rete nel caso in cui abbiate richiesto un servizio da loro svolto (ad esempio, la richiesta di un test drive vicino a te) o se hai richiesto la loro assistenza o quella fornita dai Costruttori di Autoveicoli;</li></ul><ul id="1bcd87b7-3814-80e7-9ee6-e88654fd6da9" class="bulleted-list"><li style="list-style-type:disc">I nostri Partner selezionati: quando hai acconsentito alla comunicazione dei tuoi Dati Personali per le loro finalità di marketing e/o profilazione e che agiscono come autonomi Titolari del Trattamento.</li></ul><ul id="1bcd87b7-3814-8064-898c-f30ae4df26e5" class="bulleted-list"><li style="list-style-type:disc">Autorità di polizia o qualsiasi altra autorità le cui disposizioni siano vincolanti per noi: questo è il caso in cui dobbiamo ottemperare a un ordine giudiziario o alla legge o difenderci in un procedimento legale.</li></ul><p id="1bcd87b7-3814-806a-927d-e7c7e4a12375" class=""><strong>7. Dove si trovano i tuoi Dati</strong></p><p id="1bcd87b7-3814-8024-99b4-c0120634c0fc" class="">Siamo un&#x27;azienda globale e i nostri servizi sono disponibili in diverse giurisdizioni del mondo. Ciò significa che i tuoi Dati possono essere archiviati, consultati, utilizzati, elaborati e divulgati al di fuori della tua giurisdizione, anche all&#x27;interno dell&#x27;Unione Europea, degli Stati Uniti d&#x27;America o di qualsiasi altro paese in cui si trovano i nostri Responsabili del trattamento e i nostri sub-Responsabili del Trattamento, o dove possono essere ospitati i loro server o le loro infrastrutture di cloud computing. Ci adoperiamo per garantire che il trattamento dei tuoi Dati da parte dei nostri destinatari sia conforme alle leggi applicabili in materia di protezione dei dati, compresa la legislazione dell&#x27;UE a cui siamo soggetti. Laddove richiesto dalla legge sulla protezione dei dati dell&#x27;UE, i trasferimenti dei tuoi Dati a destinatari al di fuori dell&#x27;UE saranno soggetti a garanzie adeguate (come le clausole contrattuali standard dell&#x27;UE per i trasferimenti di dati tra paesi dell&#x27;UE e paesi terzi), e/o ad altre basi legali in conformità alla legislazione dell&#x27;UE. Per ulteriori informazioni sulle garanzie da noi implementate per proteggere i Dati trasferiti a paesi terzi al di fuori dell&#x27;UE, puoi scriverci a: <a href="mailto:dataprotectionofficer@stellantis.com">dataprotectionofficer@stellantis.com</a></p><p id="1bcd87b7-3814-802c-80e0-f4d14019a592" class=""><strong>8. Per quanto tempo conserviamo i tuoi Dati</strong></p><p id="1bcd87b7-3814-8021-a9d5-ede56a772745" class="">I Dati trattati per le finalità sopra indicate saranno conservati per il periodo ritenuto strettamente necessario all&#x27;adempimento di tali finalità. Tuttavia, i Dati potrebbero essere conservati per un periodo più lungo in caso di potenziali e/o effettivi reclami e conseguenti responsabilità e/o in caso di altri requisiti legali obbligatori di conservazione e/o obblighi di conservazione.</p><ul id="1bcd87b7-3814-80bd-ade3-f6432e23348e" class="bulleted-list"><li style="list-style-type:disc">I Dati dei clienti trattati per finalità di marketing e profilazione saranno conservati dal Titolare del trattamento dal momento in cui il cliente fornisce il consenso fino al momento in cui il cliente ritira il consenso. Una volta revocato il consenso, i Dati non saranno più trattati per finalità di marketing e profilazione, anche se potrebbero essere conservati dal Titolare del trattamento per gestire potenziali reclami e/o azioni legali. La conservazione dei Dati in caso di marketing e profilazione è conforme alla legge locale e alle decisioni dell&#x27;Autorità per la protezione dei dati.</li></ul><ul id="1bcd87b7-3814-8095-9f5f-c605ded3e1f9" class="bulleted-list"><li style="list-style-type:disc">I Dati dei clienti trattati per adempiere agli obblighi di legge saranno conservati per il periodo previsto dalle leggi e dai regolamenti.</li></ul><ul id="1bcd87b7-3814-8084-bbed-f37ced9042e1" class="bulleted-list"><li style="list-style-type:disc">I Dati del Cliente per il miglioramento del prodotto e dei Servizi potrebbero essere conservati per il periodo ritenuto strettamente necessario per adempiere a tali finalità e non oltre i tre anni.</li></ul><p id="1bcd87b7-3814-802c-8117-e88f5bcde768" class="">Una volta scaduto il relativo periodo di conservazione, i tuoi Dati saranno cancellati in base alla nostra politica di conservazione. Puoi richiederci ulteriori informazioni sui nostri criteri e sulla nostra politica di conservazione scrivendoci qui: <a href="https://cloud.web.stellantis.com/fiatprofessional-it/dataprotectionofficer@stellantis.com">dataprotectionofficer@stellantis.com</a></p><p id="1bcd87b7-3814-80e1-b400-f4e29d112be2" class=""><strong>9. Come controllare i tuoi Dati e gestire le tue scelte</strong></p><p id="1bcd87b7-3814-806b-b96a-c2456f776667" class="">In qualsiasi momento, è possibile chiedere di:</p><ul id="1bcd87b7-3814-8073-9c3c-e5d977dc5602" class="bulleted-list"><li style="list-style-type:disc">Accedere ai tuoi Dati (diritto di accesso): in base all&#x27;uso che fai dei nostri Servizi, ti forniremo i tuoi Dati, come il tuo nome, l&#x27;età, l&#x27;Indirizzo IP, gli Identificatori Unici, le e-mail e le preferenze espresse, insieme alla Privacy Policy che hai ricevuto quando li hai forniti e alla fonte dei Dati (se, ad esempio, ci sono stati forniti da uno dei nostri Partner);</li></ul><ul id="1bcd87b7-3814-80a7-951c-df2539bceae1" class="bulleted-list"><li style="list-style-type:disc">Esercitare il diritto alla portabilità dei tuoi Dati Personali (diritto alla portabilità dei Dati): in base al tuo utilizzo dei nostri Servizi, ti forniremo un file interoperabile contenente i Dati che ti riguardano.</li></ul><ul id="1bcd87b7-3814-8072-b9c8-c80478196960" class="bulleted-list"><li style="list-style-type:disc">Correggere i tuoi Dati (diritto di rettifica): ad esempio, puoi chiederci di modificare il tuo indirizzo e-mail o il tuo numero di telefono se non sono corretti;</li></ul><ul id="1bcd87b7-3814-8099-9cf2-c9b6eca8ef12" class="bulleted-list"><li style="list-style-type:disc">Limitare il trattamento dei tuoi Dati (diritto alla limitazione del trattamento): ad esempio, quando ritieni che il trattamento dei tuoi Dati sia illegale o che il trattamento basato sul nostro legittimo interesse non sia appropriato;</li></ul><ul id="1bcd87b7-3814-80af-8cb8-f46098f997dd" class="bulleted-list"><li style="list-style-type:disc">Cancellare i tuoi Dati (diritto alla cancellazione): ad esempio, quando non vuoi utilizzare i nostri Servizi e non vuoi che i tuoi Dati vengano conservati;</li></ul><ul id="1bcd87b7-3814-80d0-90a3-f32ba4b4b05a" class="bulleted-list"><li style="list-style-type:disc">Opporti alle attività di trattamento (diritto di opposizione);</li></ul><ul id="1bcd87b7-3814-801e-a649-f61ced166932" class="bulleted-list"><li style="list-style-type:disc">Revocare i tuoi consensi (diritto di revoca del consenso).</li></ul><p id="1bcd87b7-3814-80a1-b8e2-ce939222da3c" class="">Puoi esercitare i diritti di cui sopra o esprimere qualsiasi preoccupazione o reclamo in merito all&#x27;utilizzo dei tuoi Dati da parte nostra direttamente all&#x27;indirizzo: <a href="https://privacyportal.stellantis.com/">https://privacyportal.stellantis.com.</a></p><p id="1bcd87b7-3814-8072-84a1-f242f3b624b0" class="">In qualsiasi momento, puoi anche:</p><ul id="1bcd87b7-3814-8088-9135-c95894bdd9a8" class="bulleted-list"><li style="list-style-type:disc">contattare il nostro Responsabile della Protezione dei dati (DPO), qui: <a href="mailto:dataprotectionofficer@stellantis.com">dataprotectionofficer@stellantis.com</a>;</li></ul><ul id="1bcd87b7-3814-80b1-ac3b-c748ccaba749" class="bulleted-list"><li style="list-style-type:disc">contattare l&#x27;Autorità di Garante, qui è possibile trovare l&#x27;elenco di tutte le Autorità di Garanti per paese: <a href="https://edpb.europa.eu/about-edpb/board/members_en">https://edpb.europa.eu/about-edpb/board/members_en.</a></li></ul><p id="1bcd87b7-3814-8034-8c09-f7c42c034b25" class=""><strong>10. Come proteggiamo i tuoi Dati</strong></p><p id="1bcd87b7-3814-80a0-a50b-c77649166d86" class="">Adottiamo ragionevoli precauzioni dal punto di vista fisico, tecnologico e organizzativo per prevenire la perdita, l’uso improprio o la modifica dei Dati sotto il nostro controllo. Ad esempio:</p><ul id="1bcd87b7-3814-806f-8fb6-cc7f23e05aa6" class="bulleted-list"><li style="list-style-type:disc">Ci assicuriamo che i tuoi Dati siano accessibili e utilizzati solo da, trasferiti o divulgati ai Destinatari che devono avere accesso a tali Dati.</li></ul><ul id="1bcd87b7-3814-80c0-9205-e1a6b6286812" class="bulleted-list"><li style="list-style-type:disc">Limitiamo inoltre la quantità di Dati accessibili, trasferiti o divulgati ai Destinatari solo a quanto necessario per adempiere alle finalità o ai compiti specifici svolti dal Destinatario.</li></ul><ul id="1bcd87b7-3814-80bf-b98c-f632aadeee2c" class="bulleted-list"><li style="list-style-type:disc">I computer e i server in cui sono archiviati i tuoi Dati sono tenuti in un ambiente sicuro, sono controllati da password con accesso limitato e hanno installato firewall e software antivirus standard del settore.</li></ul><ul id="1bcd87b7-3814-8049-aec0-dc9436134eee" class="bulleted-list"><li style="list-style-type:disc">Anche le copie cartacee dei documenti contenenti i tuoi Dati (se presenti) sono conservate in un ambiente sicuro.</li></ul><ul id="1bcd87b7-3814-80df-88ec-da8c1e38181c" class="bulleted-list"><li style="list-style-type:disc">Distruggiamo le copie cartacee dei documenti contenenti i tuoi Dati che non sono più necessari.</li></ul><ul id="1bcd87b7-3814-80cf-b67b-f7ec12899b52" class="bulleted-list"><li style="list-style-type:disc">Quando distruggiamo i Dati registrati e archiviati sotto forma di file elettronici che non sono più necessari, ci assicuriamo che un metodo tecnico (ad esempio, un formato di basso livello) garantisca che i record non possano essere riprodotti.</li></ul><ul id="1bcd87b7-3814-8076-ba7d-e2df0f04058f" class="bulleted-list"><li style="list-style-type:disc">I computer portatili, le chiavi USB, i telefoni cellulari e altri dispositivi elettronici senza fili utilizzati dai nostri dipendenti che hanno accesso ai tuoi Dati sono protetti. Invitiamo i dipendenti a non memorizzare i tuoi Dati su tali dispositivi, a meno che non sia ragionevolmente necessario per svolgere un compito specifico come indicato nella presente Privacy Policy.</li></ul><ul id="1bcd87b7-3814-8053-a1a5-c7a936521e4d" class="bulleted-list"><li style="list-style-type:disc">Formiamo i nostri dipendenti al rispetto della presente Privacy Policy e conduciamo attività di monitoraggio per garantire la continua conformità e per determinare l&#x27;efficacia delle nostre pratiche di gestione della privacy.</li></ul><ul id="1bcd87b7-3814-80ab-bb5b-e8cc9e21f146" class="bulleted-list"><li style="list-style-type:disc">Qualsiasi Responsabile del Trattamento da noi utilizzato è tenuto per contratto a conservare e proteggere i tuoi Dati utilizzando misure sostanzialmente simili a quelle indicate nella presente Privacy Policy o richieste dalla legge applicabile in materia di protezione dei dati.</li></ul><p id="1bcd87b7-3814-80e2-acfb-edec852ac82e" class="">Nei casi previsti dalla normativa applicabile, qualora si verifichi una violazione della sicurezza che comporti la distruzione accidentale o illecita, la perdita, l&#x27;alterazione, la divulgazione non autorizzata o l&#x27;accesso ai Dati trasmessi, conservati o altrimenti trattati, sarà data comunicazione all&#x27;utente e all&#x27;autorità competente per la protezione dei Dati, come richiesto (ad esempio, a meno che i Dati non siano incomprensibili per qualsiasi persona o sia improbabile che la violazione comporti un rischio per i diritti e le libertà dell&#x27;utente e di altri).</p><p id="1bcd87b7-3814-8012-9f66-dc1ea7b767ec" class=""><strong>11. Cosa non copre la presente Privacy Policy</strong></p><p id="1bcd87b7-3814-800a-9fdd-deac2f8f4c74" class="">La presente Privacy Policy illustra e copre il trattamento che effettuiamo in qualità di Titolare del Trattamento all&#x27;interno del nostro sito web e della nostra Applicazione.</p><p id="1bcd87b7-3814-800e-9227-f357057cade8" class="">La presente Privacy Policy non copre i trattamenti effettuati da soggetti diversi da noi.</p><p id="1bcd87b7-3814-80c5-b7a9-f9d8b990c19a" class="">In questi casi, non siamo responsabili di alcun trattamento dei tuoi Dati che non sia coperto dalla presente Privacy Policy.</p><p id="1bcd87b7-3814-80d8-b4dd-e0189d783c06" class=""><strong>12. Utilizzo dei Dati per altri scopi</strong></p><p id="1bcd87b7-3814-8093-81b0-e74c55b7a917" class="">Qualora dovessimo trattare i tuoi Dati in modo diverso o per finalità diverse da quelle indicate nel presente documento, riceverai una specifica comunicazione prima dell&#x27;inizio di tale trattamento.</p><p id="1bcd87b7-3814-80b6-afa0-f1a1a0977324" class=""><strong>13. Modifiche alla Privacy Policy</strong></p><p id="1bcd87b7-3814-8083-a173-eb73b111d53b" class="">Ci riserviamo il diritto di adattare e/o modificare la presente Privacy Policy in qualsiasi momento. Ti informeremo di ogni adattamento/modifica rilevante.</p><p id="1bcd87b7-3814-80a4-bcc0-d1324d0cc90c" class=""><strong>14. Licenza</strong></p><p id="1bcd87b7-3814-80ad-9978-cb0877e753e3" class="">Le icone illustrate in questa Privacy Policy sono &quot;Icone della protezione dei dati&quot; dell&#x27;Università di Maastricht, European Centre on Privacy and Cybersecurity (ECPC) CC BY 4.0.</p><p id="1bcd87b7-3814-8025-a3b5-f72d0a4ee967" class=""><strong>15. Definizioni</strong></p><p id="1bcd87b7-3814-8065-9e86-f8e161a14eb0" class="">Altre Tecnologie di Tracciamento: pixel tag (tracciatori utilizzati con i Cookie e incorporati nelle immagini delle pagine web o dell&#x27;Applicazione per tracciare determinate attività, come la visualizzazione di Contenuti che potrebbero essere utili all&#x27;Utente o per verificare se un&#x27;e-mail è stata letta) o identificatori univoci incorporati nei link alle comunicazioni commerciali che ci inviano informazioni quando vengono cliccati.</p><p id="1bcd87b7-3814-80cc-b6bd-d2801b2012b7" class="">Applicazione: indica questa Applicazione, se applicabile.</p><p id="1bcd87b7-3814-803e-b2ee-ff0494e87350" class="">Browser: si riferisce ai programmi utilizzati per accedere a Internet (ad es. Safari, Chrome, Firefox, ecc.).</p><p id="1bcd87b7-3814-8016-848f-c7bae2f2aca0" class="">Combinazione e/o Incrocio: si tratta dell&#x27;insieme di operazioni completamente automatizzate e non automatizzate che combiniamo con le Informazioni sulla tua posizione, i Dati desunti dalla tua attività, i Dati raccolti dal Browser, dal Dispositivo e dall&#x27;Applicazione, i Dati da te forniti e quelli raccolti dai Siti Web e dalle Applicazioni dei nostri Partner, utilizzati per fornire i Servizi, analizzare e migliorare i nostri Servizi e creare nuovi servizi e funzionalità, nonché per offrire Contenuti che potrebbero essere utili all’Utente. Possiamo anche combinare e/o incrociare informazioni provenienti da fonti diverse, come le informazioni raccolte dal Nostro Sito Web e dall&#x27;Applicazione, dai siti web e dalle applicazioni dei nostri Partner e/o i Dati raccolti da fonti pubbliche o pubblicamente accessibili.</p><p id="1bcd87b7-3814-8025-9432-c30f9415e54d" class="">Contenuti che potrebbero essere utili all&#x27;Utente: ad esempio, se l&#x27;utente cerca il modello &quot;Jeep&quot;, potremmo visualizzare altri contenuti relativi a questo modello sul nostro Sito Web e Applicazione o attraverso la Pubblicità Programmatica. La personalizzazione dei contenuti può avvenire attraverso la Combinazione e/o Incrocio dei Dati.</p><p id="1bcd87b7-3814-80dc-9ec5-eec601d4087e" class="">Cookie: si tratta di un piccolo testo inviato al tuo Browser dai Nostri Siti o dai nostri Partner o rivenditori. Permette al sito di memorizzare informazioni come il fatto di aver visitato il sito, la tua lingua e altre informazioni. I Cookie vengono utilizzati per diversi scopi, ad esempio per registrare le preferenze dell&#x27;utente in merito all&#x27;utilizzo dei Cookie (Cookie tecnici), per analizzare e migliorare i nostri Servizi e per creare nuovi Servizi e funzionalità o per personalizzare i nostri Servizi, compresi i Contenuti che possono essere utili all&#x27;Utente. Le informazioni trasmesse dai Cookie sono soggette a Combinazione e/o Incrocio con una delle Altre Tecnologie di Tracciamento, ove applicabile.</p><p id="1bcd87b7-3814-8051-8e88-dcda1bacd22d" class="">Costruttori di Autoveicoli: singolarmente o collettivamente si riferisce alle seguenti entità che agiscono come produttori di veicoli: Stellantis Europe S.p.A., Corso Agnelli 200, 10135 - Torino, Italia; PSA Automobiles S.A. (Stellantis Auto S.A.S.), 2-10 Boulevard de l&#x27;Europe, F-78300 Poissy, Francia; Opel Automobile GmbH, Bahnhofsplatz, D-65423 Rüsselsheim am Main, Germania.</p><p id="1bcd87b7-3814-8098-b19c-d07761cc3545" class="">Dati del Veicolo: indica tutti i dati tecnici, diagnostici e reali che è possibile raccogliere tramite il Dispositivo del Veicolo installato sul Veicolo (ad esempio, posizione, velocità e distanze, tempo di funzionamento del motore e tempo di spegnimento; se il cavo della batteria è tagliato, diagnostica della batteria, movimenti con la chiave estratta, presunta collisione, nonché dati diagnostici quali, a titolo esemplificativo ma non esaustivo, livelli dell&#x27;olio e del carburante, pressione degli pneumatici e stato del motore).</p><p id="1bcd87b7-3814-8062-9989-d53c0daf84d6" class="">Dati Personali: qualsiasi informazione relativa a una persona fisica identificata o identificabile, direttamente o indirettamente, nonché qualsiasi informazione collegata o ragionevolmente collegabile a un particolare individuo o nucleo familiare. Ad esempio, un indirizzo e-mail (se si riferisce a uno o più aspetti di un individuo), gli Indirizzi IP e gli Identificatori Unici sono considerati Dati Personali. Per comodità, indicheremo collettivamente tutti i Dati Personali citati anche come &quot;Dati&quot;.</p><p id="1bcd87b7-3814-8089-a23c-f13f2a18156a" class="">Dati Sensibili: si intendono i Dati Personali che rivelano l&#x27;origine razziale o etnica, le opinioni politiche, le convinzioni religiose o filosofiche, l&#x27;appartenenza sindacale e il trattamento di dati genetici, dati biometrici intesi a identificare in modo univoco una persona fisica, dati relativi alla salute o dati relativi alla vita sessuale o all&#x27;orientamento sessuale di una persona fisica.</p><p id="1bcd87b7-3814-8027-b1bd-ef9efa106633" class="">Dispositivo: si riferisce al Dispositivo elettronico (ad es. iPhone) attraverso il quale visitate Il Nostro Sito Web e la nostra Applicazione e/o i Siti Web e le applicazioni dei nostri Partner.</p><p id="1bcd87b7-3814-806e-8143-c76436cf2b12" class="">Identificatori Unici: informazioni che possono identificare in modo univoco l&#x27;utente attraverso il Browser, il Dispositivo e/o l&#x27;Applicazione. Nel Browser, l&#x27;Indirizzo IP e i Cookie sono considerati Identificatori Unici. Sul Dispositivo, gli identificatori pubblicitari forniti dai produttori, come l&#x27;IDFA di Apple e l&#x27;AAIG di Android, che utilizziamo per analizzare e migliorare i nostri Servizi e per creare nuovi Servizi e funzionalità, compresi i Contenuti che possono essere utili all&#x27;Utente, sono considerati Identificatori Unici. Si prega di notare che per questi scopi e in linea con i pareri delle autorità di vigilanza europee, non utilizziamo altri identificatori univoci come gli indirizzi MAC e gli IMEI in quanto non sono reimpostabili dall&#x27;utente. Per l&#x27;Applicazione, invece, gli Identificatori Unici sono considerati il codice che identifica l&#x27;Applicazione installata.</p><p id="1bcd87b7-3814-8008-9ea1-dafdeea79638" class="">Indirizzo IP: è un numero univoco utilizzato dal Browser, dal Dispositivo e dall&#x27;Applicazione per connettersi a Internet. Il fornitore di servizi Internet fornisce questo numero che consente di identificare il fornitore e/o l&#x27;area approssimativa in cui si trova l&#x27;utente. Senza questi Dati, l&#x27;utente non puoi connettersi a Internet e utilizzare i nostri Servizi o i Contenuti che potrebbero essergli utili.</p><p id="1bcd87b7-3814-80c4-8867-c4a180199b04" class="">Informazioni Aggregate: si riferiscono a informazioni statistiche sull&#x27;utente che non contengono i tuoi Dati Personali. Utilizziamo queste informazioni per analizzare e migliorare i Nostri Servizi e creare nuovi Servizi e funzionalità e per creare rapporti statistici per i nostri Partner e la Nostra Rete. Ad esempio, possiamo raccogliere informazioni sulla tua posizione o sui contenuti che ti possono essere utili e che hai visualizzato. Desideriamo sottolineare che non condividiamo i tuoi Dati in questi rapporti.</p><p id="1bcd87b7-3814-8006-b639-f6418456ccea" class="">Nostri Eventi: sono eventi/showroom organizzati da Stellantis o in collaborazione con altri marchi con cui Stellantis Europe ha siglato accordi di partnership.</p><p id="1bcd87b7-3814-8095-8b91-f09c3ba6dd03" class="">Nostro Sito Web: comprende il presente Sito Web e le pagine dei nostri social network in cui è presente la presente Privacy Policy.</p><p id="1bcd87b7-3814-8080-be98-c5d5e712dca4" class="">Nostra Rete: si tratta di rivenditori e/o concessionari e/o officine con i quali Stellantis Europe e i Produttori di Autoveicoli hanno sottoscritto accordi commerciali per la vendita dei Veicoli e/o per la fornitura di servizi/prodotti di assistenza.</p><p id="1bcd87b7-3814-80e7-a69d-e3d8ea8b9d0a" class="">Partner: indica entità terze che possono comunicarci i tuoi Dati Personali solo dopo averci assicurato contrattualmente di aver ottenuto il tuo consenso o di avere un&#x27;altra base giuridica che legittima la loro comunicazione/condivisione di tali Dati con noi (ad esempio, se chiedi a uno dei nostri Partner di prenotare un test drive, quando acquisti e quando richiedi di ricevere comunicazioni commerciali). Questa definizione include anche i Partner selezionati con cui possiamo condividere i tuoi Dati. I Partner possono appartenere ai seguenti settori merceologici: attività manifatturiere, commercio all&#x27;ingrosso e al dettaglio, servizi finanziari, bancari, di trasporto e magazzinaggio, servizi di informazione e comunicazione, attività professionali, scientifiche e tecniche, agenzie di viaggio, servizi di supporto alle imprese, attività artistiche, sportive, di intrattenimento e divertimento, attività di organizzazioni associative, servizi di centri di benessere fisico, fornitori di energia elettrica e gas, società di noleggio, di mobilità elettrica e di assicurazione.</p><p id="1bcd87b7-3814-80fa-8b58-fdc674af21a4" class="">Pubblicità Programmatica: si tratta di piattaforme che condividono le informazioni raccolte sull&#x27;utente, come l&#x27;Indirizzo IP e i Dati raccolti da Cookie e altre Tecnologie di Tracciamento, con entità che hanno interesse a mostrargli Contenuti che potrebbero essere utili all’Utente. Nel nostro caso, se visualizzate il modello &quot;Jeep&quot; sul nostro Sito Web e sulla nostra Applicazione, chiederemo ai partecipanti alla Pubblicità Programmatica di concederci uno spazio pubblicitario su uno dei Siti Web che visitate al fine di mostrare Contenuti che potrebbero essere utili all’Utente. A questo proposito, desideriamo ribadire che la comunicazione dei tuoi Dati ai partecipanti alla Pubblicità Programmatica si basa sul tuo previo e specifico consenso fornito sul banner al momento della prima visita al Nostro Sito Web e all&#x27;Applicazione.</p><p id="1bcd87b7-3814-8073-ae66-ece440081d14" class="">Raccolta Indiretta: è uno dei Servizi che forniamo sui siti web e sulle applicazioni dei nostri Partner. In questi casi, è il Partner che ci assicura di aver ricevuto il tuo consenso o di avere un&#x27;altra base giuridica che legittima la comunicazione/condivisione dei tuoi Dati Personali. A questo proposito, precisiamo che, prima di essere utilizzati, verifichiamo le modalità con cui i Partner raccolgono e ci trasferiscono i Dati al fine di rispettare le tue preferenze.</p><p id="1bcd87b7-3814-80c3-88b8-dc216be47276" class="">Responsabile del Trattamento: si riferisce a un&#x27;entità da noi incaricata di trattare i tuoi Dati Personali esclusivamente per conto di Stellantis Europe S.p.A. e in base alle tue istruzioni scritte.</p><p id="1bcd87b7-3814-80ad-a870-e98c26de0983" class="">Sensori del Dispositivo: a seconda del Dispositivo, si tratta di sensori quali accelerometri, giroscopi, Bluetooth, Wi-fi e GPS che, in un modo o nell&#x27;altro, condividono le informazioni raccolte attraverso il Dispositivo e quindi l&#x27;Applicazione. Se abilitati dalle impostazioni del Dispositivo, ci permettono di ottenere informazioni sulla tua posizione.</p><p id="1bcd87b7-3814-80b4-b7e5-d53c3a3f9922" class="">Servizi: collettivamente, si intendono tutti i Servizi disponibili sul Nostro Sito Web e sull&#x27;Applicazione, quali &quot;configura e ordina&quot;, &quot;trova Rivenditori&quot;, &quot;acquista o noleggia&quot;, prenotazioni di test drive, la newsletter istituzionale, il servizio clienti e I Nostri Eventi. Titolare del Trattamento: si riferisce alla persona giuridica, all&#x27;autorità pubblica, al servizio o ad altra entità che, individualmente o congiuntamente, determina le finalità e i mezzi per il trattamento dei tuoi Dati Personali. Questa definizione si riferisce tipicamente a Stellantis Europe S.p.A. In altri casi, è preceduta dalla parola &quot;Indipendente&quot; (ad esempio, &quot;Titolare indipendente del trattamento&quot;) per indicare che i tuoi Dati Personali sono trattati da un soggetto diverso da Stellantis Europe S.p.A.</p><p id="1bcd87b7-3814-802a-b6ef-cad54a5f2b8c" class="">Veicolo: si riferisce a un Veicolo di uno dei marchi del gruppo Stellantis.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
