@@ -887,10 +887,41 @@ Header Area
           "></path>
         </svg>
     </div>
+<!-- Cookie Notice Banner -->
+<div id="cookie-notice" style="position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: #fff; padding: 10px 20px; text-align: center; font-family: sans-serif; z-index: 9999;">
+  Questo sito utilizza solo cookie tecnici essenziali. 
+  <a href="https://www.carvizio.it/cookie-policy.html" target="_blank" style="color: #ffd700; text-decoration: underline;">Leggi la cookie policy completa</a>.
+  <button id="cookie-close" style="margin-left: 15px; padding: 5px 10px; border: none; background: #ffd700; color: #222; cursor: pointer;">Chiudi</button>
+</div>
 
     <!--==============================
 All Js File
 ============================== -->
+<script>
+  // Controlla se il cookie esiste
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  // Mostra il banner solo se il cookie non esiste
+  if (!getCookie('cookie_notice_accepted')) {
+    document.getElementById('cookie-notice').style.display = 'block';
+  } else {
+    document.getElementById('cookie-notice').style.display = 'none';
+  }
+
+  // Chiudi banner e salva cookie
+  document.getElementById('cookie-close').onclick = function() {
+    document.getElementById('cookie-notice').style.display = 'none';
+    // Cookie valido 30 giorni
+    var d = new Date();
+    d.setTime(d.getTime() + (30*24*60*60*1000));
+    document.cookie = "cookie_notice_accepted=true; expires=" + d.toUTCString() + "; path=/";
+  };
+</script>
+
    
     <!-- Jquery -->
     <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -911,6 +942,7 @@ All Js File
     <script src="assets/js/nice-select.min.js"></script>
     <!-- Main Js File -->
     <script src="assets/js/theme.js"></script>
+    
 </body>
 
 </html>
