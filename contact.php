@@ -1,5 +1,5 @@
 <?php
-$adminEmail = 'perugiagrifo2015@gmail.com';
+$adminEmail = 'adextraitalia@gmail.com';
 header("Location: contact.html", ); 
 $userEmail = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $userMessage = '
