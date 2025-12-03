@@ -27,9 +27,9 @@ $adminMessage = "
         <li>Email: {$_POST['email']}</li>
         <li>Oggetto: {$_POST['message']}</li>
         <li>Privacy: {$_POST['agree']}</li>
-   		<li>Newsletter: {$_POST['newsletter']}</li>
-		<li>Marketing: {$_POST['marketing']}</li>
-        <li>Categorie Merceologiche:{$_POST['categorie']}</li>
+      <li>Newsletter: {$_POST['newsletter']}</li>
+    <li>Marketing: {$_POST['marketing']}</li>
+  <li>Categorie Merceologiche: " . implode(', ', $_POST['categorie']) . "</li>
 
       </ul>
     </body>
