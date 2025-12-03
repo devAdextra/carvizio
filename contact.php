@@ -1,5 +1,5 @@
 <?php
-$adminEmail = 'luca.urazov@adextraitalia.it';
+$adminEmail = 'perugiagrifo2015@gmail.com';
 header("Location: contact.html", ); 
 $userEmail = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $userMessage = '
@@ -29,7 +29,6 @@ $adminMessage = "
         <li>Privacy: {$_POST['agree']}</li>
    		<li>Newsletter: {$_POST['newsletter']}</li>
 		<li>Marketing: {$_POST['marketing']}</li>
-    <li>Categorie Merceologiche:{$_POST['categorie']}</li>
       </ul>
     </body>
   </html>
